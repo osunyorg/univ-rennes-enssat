@@ -8,7 +8,7 @@ items:
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
-- title: Équipe
+- title: French grande école
   target: "/equipe/"
   kind: page
   new_tab: false
