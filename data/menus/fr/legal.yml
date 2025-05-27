@@ -22,11 +22,14 @@ items:
   children: []
   path: "/pages/accessibilite"
   file: content/fr/pages/accessibilite/_index.html
-- title: Plan du site
-  target: "/plan-du-site/"
-  kind: page
+- title: École Nationale Supérieure des Sciences Appliquées et de Technologie
+  target: ''
+  kind: blank
   new_tab: false
   children: []
-  path: "/pages/plan-du-site"
-  file: content/fr/pages/plan-du-site/_index.html
+- title: 6, rue de Kerampont CS 80518 22300 LANNION CEDEX FRANCE
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
 
