@@ -36,4 +36,18 @@ items:
   children: []
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
+- title: Publics
+  target: "/publics/"
+  kind: page
+  new_tab: false
+  children:
+  - title: International student
+    target: "/publics/international-student/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/publics/international-student"
+    file: content/fr/pages/publics/international-student/_index.html
+  path: "/pages/publics"
+  file: content/fr/pages/publics/_index.html
 
