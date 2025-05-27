@@ -13,6 +13,41 @@ items:
     children: []
     path: "/events"
     file: content/fr/events/_index.html
+  - title: Publics
+    target: "/publics/"
+    kind: page
+    new_tab: false
+    children:
+    - title: International student
+      target: "/publics/international-student/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/publics/international-student"
+      file: content/fr/pages/publics/international-student/_index.html
+    - title: Candidat·e admissible
+      target: "/publics/candidate-admissible/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/publics/candidate-admissible"
+      file: content/fr/pages/publics/candidate-admissible/_index.html
+    - title: Chercheur
+      target: "/publics/chercheur/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/publics/chercheur"
+      file: content/fr/pages/publics/chercheur/_index.html
+    - title: Une entreprise
+      target: "/publics/une-entreprise/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/publics/une-entreprise"
+      file: content/fr/pages/publics/une-entreprise/_index.html
+    path: "/pages/publics"
+    file: content/fr/pages/publics/_index.html
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Formations
@@ -29,41 +64,6 @@ items:
   children: []
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
-- title: Publics
-  target: "/publics/"
-  kind: page
-  new_tab: false
-  children:
-  - title: International student
-    target: "/publics/international-student/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/publics/international-student"
-    file: content/fr/pages/publics/international-student/_index.html
-  - title: Candidat·e admissible
-    target: "/publics/candidate-admissible/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/publics/candidate-admissible"
-    file: content/fr/pages/publics/candidate-admissible/_index.html
-  - title: Chercheur
-    target: "/publics/chercheur/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/publics/chercheur"
-    file: content/fr/pages/publics/chercheur/_index.html
-  - title: Une entreprise
-    target: "/publics/une-entreprise/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/publics/une-entreprise"
-    file: content/fr/pages/publics/une-entreprise/_index.html
-  path: "/pages/publics"
-  file: content/fr/pages/publics/_index.html
 - title: Relations entreprises
   target: "/relations-entreprises/"
   kind: page
