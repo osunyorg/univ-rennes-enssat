@@ -48,6 +48,13 @@ items:
     children: []
     path: "/pages/publics/international-student"
     file: content/fr/pages/publics/international-student/_index.html
+  - title: Candidat·e admissible
+    target: "/publics/candidate-admissible/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/publics/candidate-admissible"
+    file: content/fr/pages/publics/candidate-admissible/_index.html
   path: "/pages/publics"
   file: content/fr/pages/publics/_index.html
 
