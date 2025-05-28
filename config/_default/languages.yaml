@@ -17,6 +17,8 @@ fr:
     pages_categories: /:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
+    programs_categories: /formations/categories/:slug/
+    programs: /formations/:slug/
   taxonomies:
     administrator: administrators
     author: authors
