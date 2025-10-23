@@ -117,6 +117,11 @@ items:
     kind: url
     new_tab: false
     children: []
+  - title: Un territoire innovant
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
   path: "/pages/vie-etudiante"
   file: content/fr/pages/vie-etudiante/_index.html
 
