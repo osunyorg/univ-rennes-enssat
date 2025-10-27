@@ -6,13 +6,16 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Agenda
-    target: "/agenda/"
-    kind: page
+  - title: Nos valeurs
+    target: ''
+    kind: blank
     new_tab: false
-    children: []
-    path: "/events"
-    file: content/fr/events/_index.html
+    children:
+    - title: Accréditations
+      target: ''
+      kind: blank
+      new_tab: false
+      children: []
   - title: Publics
     target: "/publics/"
     kind: page
@@ -49,22 +52,34 @@ items:
         kind: blank
         new_tab: false
         children: []
+      - title: Partenariat
+        target: ''
+        kind: blank
+        new_tab: false
+        children: []
       path: "/pages/publics/une-entreprise"
       file: content/fr/pages/publics/une-entreprise/_index.html
     path: "/pages/publics"
     file: content/fr/pages/publics/_index.html
-  - title: Actualité
-    target: "/actualites/2025-05-19-8e-edition-du-concours-droneload-a-lannion/"
-    kind: post
-    new_tab: false
-    children: []
-    path: "/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion"
-    file: content/fr/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion.html
-  - title: Nos valeurs
+  - title: S'informer
     target: ''
     kind: blank
     new_tab: false
-    children: []
+    children:
+    - title: Agenda
+      target: "/agenda/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/events"
+      file: content/fr/events/_index.html
+    - title: Actualité
+      target: "/actualites/2025-05-19-8e-edition-du-concours-droneload-a-lannion/"
+      kind: post
+      new_tab: false
+      children: []
+      path: "/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion"
+      file: content/fr/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion.html
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Formations
