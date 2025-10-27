@@ -43,7 +43,12 @@ items:
       target: "/publics/une-entreprise/"
       kind: page
       new_tab: false
-      children: []
+      children:
+      - title: Taxe d'apprentissage
+        target: ''
+        kind: blank
+        new_tab: false
+        children: []
       path: "/pages/publics/une-entreprise"
       file: content/fr/pages/publics/une-entreprise/_index.html
     path: "/pages/publics"
@@ -55,6 +60,11 @@ items:
     children: []
     path: "/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion"
     file: content/fr/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion.html
+  - title: Nos valeurs
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Formations
@@ -81,7 +91,12 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Institut Foton
+  - title: Instituts et Laboratoires
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
+  - title: Sujets de recherche
     target: ''
     kind: blank
     new_tab: false
@@ -118,6 +133,11 @@ items:
     new_tab: false
     children: []
   - title: Un territoire innovant
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
+  - title: Vie associative
     target: ''
     kind: blank
     new_tab: false
