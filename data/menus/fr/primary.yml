@@ -74,10 +74,12 @@ items:
       path: "/events"
       file: content/fr/events/_index.html
     - title: Actualité
-      target: ''
-      kind: blank
+      target: "/actualites/"
+      kind: page
       new_tab: false
       children: []
+      path: "/posts"
+      file: content/fr/posts/_index.html
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Formations
