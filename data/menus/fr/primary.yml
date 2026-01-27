@@ -124,7 +124,7 @@ items:
   new_tab: false
   children:
   - title: Offre d'emploi
-    target: "/offres-d-emploi/"
+    target: "/relations-entreprises/offres-d-emploi/"
     kind: page
     new_tab: false
     children: []
