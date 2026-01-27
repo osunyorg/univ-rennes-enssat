@@ -74,12 +74,10 @@ items:
       path: "/events"
       file: content/fr/events/_index.html
     - title: Actualité
-      target: "/actualites/2025-05-19-8e-edition-du-concours-droneload-a-lannion/"
-      kind: post
+      target: ''
+      kind: blank
       new_tab: false
       children: []
-      path: "/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion"
-      file: content/fr/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion.html
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Formations
