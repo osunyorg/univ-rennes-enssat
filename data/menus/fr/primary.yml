@@ -122,7 +122,14 @@ items:
   target: "/relations-entreprises/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Offre d'emploi
+    target: "/offres-d-emploi/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/jobs"
+    file: content/fr/jobs/_index.html
   path: "/pages/relations-entreprises"
   file: content/fr/pages/relations-entreprises/_index.html
 - title: International
