@@ -14,3 +14,59 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
 
+[[redirects]]
+from = "/formations/projets/index.html"
+to = "/projets/"
+
+[[redirects]]
+from = "/equipe/equipe-administrative/index.html"
+to = "/equipe/nos-equipes/equipe-administrative/"
+
+[[redirects]]
+from = "/formations/equipe/index.html"
+to = "/equipe/"
+
+[[redirects]]
+from = "/offres-d-emploi/2026/test/index.html"
+to = "/relations-entreprises/offres-d-emploi/2026/test/"
+
+[[redirects]]
+from = "/equipe/equipe-editoriale/index.html"
+to = "/equipe/nos-equipes/equipe-editoriale/"
+
+[[redirects]]
+from = "/diplomes/index.html"
+to = "/formations/diplomes/"
+
+[[redirects]]
+from = "/actualites/article1/index.html"
+to = "/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
+
+[[redirects]]
+from = "/offres-d-emploi/index.html"
+to = "/relations-entreprises/offres-d-emploi/"
+
+[[redirects]]
+from = "/enssat/index.html"
+to = "/ecoles/enssat/"
+
+[[redirects]]
+from = "/equipe/equipe-pedagogique/index.html"
+to = "/equipe/nos-equipes/equipe-pedagogique/"
+
+[[redirects]]
+from = "/actualites/2026-01-27-article1/index.html"
+to = "/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
+
+[[redirects]]
+from = "/campus/index.html"
+to = "/equipe/campus/"
+
+[[redirects]]
+from = "/formations/campus/index.html"
+to = "/equipe/campus/"
+
+[[redirects]]
+from = "/equipe/equipe-de-recherche/index.html"
+to = "/equipe/nos-equipes/equipe-de-recherche/"
+
