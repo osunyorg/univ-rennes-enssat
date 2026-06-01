@@ -39,12 +39,16 @@ from = "/diplomes/index.html"
 to = "/formations/diplomes/"
 
 [[redirects]]
+from = "/relations-entreprises/offres-d-emploi/index.html"
+to = "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
+
+[[redirects]]
 from = "/actualites/article1/index.html"
 to = "/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
 
 [[redirects]]
 from = "/offres-d-emploi/index.html"
-to = "/relations-entreprises/offres-d-emploi/"
+to = "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
 
 [[redirects]]
 from = "/equipe/campus/index.html"

@@ -7,122 +7,47 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Nos valeurs
-    slug: nos-valeurs
-    target: ''
-    kind: blank
-    new_tab: false
-    children:
-    - title: Accréditations
-      slug: accreditations
-      target: ''
-      kind: blank
-      new_tab: false
-      children: []
-      descendants_targets: []
-    descendants_targets:
-    - ''
-  - title: Publics
-    slug: publics
-    target: "/publics/"
+  - title: Qui sommes-nous ?
+    slug: qui-sommes-nous
+    target: "/equipe/qui-sommes-nous/"
     kind: page
     new_tab: false
-    children:
-    - title: International student
-      slug: international-student
-      target: "/publics/international-student/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/publics/international-student"
-      file: content/fr/pages/publics/international-student/_index.html
-    - title: Candidat·e admissible
-      slug: candidat-e-admissible
-      target: "/publics/candidate-admissible/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/publics/candidate-admissible"
-      file: content/fr/pages/publics/candidate-admissible/_index.html
-    - title: Chercheur
-      slug: chercheur
-      target: "/publics/chercheur/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/publics/chercheur"
-      file: content/fr/pages/publics/chercheur/_index.html
-    - title: Une entreprise
-      slug: une-entreprise
-      target: "/publics/une-entreprise/"
-      kind: page
-      new_tab: false
-      children:
-      - title: Taxe d'apprentissage
-        slug: taxe-d-apprentissage
-        target: ''
-        kind: blank
-        new_tab: false
-        children: []
-        descendants_targets: []
-      - title: Partenariat
-        slug: partenariat
-        target: ''
-        kind: blank
-        new_tab: false
-        children: []
-        descendants_targets: []
-      descendants_targets:
-      - ''
-      path: "/pages/publics/une-entreprise"
-      file: content/fr/pages/publics/une-entreprise/_index.html
-    descendants_targets:
-    - ''
-    - "/publics/candidate-admissible/"
-    - "/publics/chercheur/"
-    - "/publics/international-student/"
-    - "/publics/une-entreprise/"
-    path: "/pages/publics"
-    file: content/fr/pages/publics/_index.html
-  - title: S'informer
-    slug: s-informer
-    target: ''
-    kind: blank
+    children: []
+    descendants_targets: []
+    path: "/pages/equipe/qui-sommes-nous"
+    file: content/fr/pages/equipe/qui-sommes-nous/_index.html
+  - title: Choisir l'ENSSAT
+    slug: choisir-l-enssat
+    target: "/equipe/choisir-lenssat/"
+    kind: page
     new_tab: false
-    children:
-    - title: Agenda
-      slug: agenda
-      target: "/agenda/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/events"
-      file: content/fr/events/_index.html
-    - title: Actualité
-      slug: actualite
-      target: "/actualites/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/posts"
-      file: content/fr/posts/_index.html
-    descendants_targets:
-    - "/actualites/"
-    - "/agenda/"
+    children: []
+    descendants_targets: []
+    path: "/pages/equipe/choisir-lenssat"
+    file: content/fr/pages/equipe/choisir-lenssat/_index.html
+  - title: Gouvernance
+    slug: gouvernance
+    target: "/equipe/gouvernance/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/equipe/gouvernance"
+    file: content/fr/pages/equipe/gouvernance/_index.html
+  - title: Engagements et certifications
+    slug: engagements-et-certifications
+    target: "/equipe/engagements-et-certifications/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/equipe/engagements-et-certifications"
+    file: content/fr/pages/equipe/engagements-et-certifications/_index.html
   descendants_targets:
-  - ''
-  - "/actualites/"
-  - "/agenda/"
-  - "/publics/"
-  - "/publics/candidate-admissible/"
-  - "/publics/chercheur/"
-  - "/publics/international-student/"
-  - "/publics/une-entreprise/"
+  - "/equipe/choisir-lenssat/"
+  - "/equipe/engagements-et-certifications/"
+  - "/equipe/gouvernance/"
+  - "/equipe/qui-sommes-nous/"
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Formations
@@ -130,16 +55,8 @@ items:
   target: "/formations/"
   kind: page
   new_tab: false
-  children:
-  - title: Apprentissage
-    slug: apprentissage
-    target: ''
-    kind: blank
-    new_tab: false
-    children: []
-    descendants_targets: []
-  descendants_targets:
-  - ''
+  children: []
+  descendants_targets: []
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: International
@@ -198,7 +115,7 @@ items:
   children:
   - title: Offre d'emploi
     slug: offre-d-emploi
-    target: "/relations-entreprises/offres-d-emploi/"
+    target: "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
     kind: page
     new_tab: false
     children: []
@@ -206,7 +123,7 @@ items:
     path: "/jobs"
     file: content/fr/jobs/_index.html
   descendants_targets:
-  - "/relations-entreprises/offres-d-emploi/"
+  - "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
   path: "/pages/relations-entreprises"
   file: content/fr/pages/relations-entreprises/_index.html
 
