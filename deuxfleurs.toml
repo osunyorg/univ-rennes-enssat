@@ -47,6 +47,10 @@ from = "/offres-d-emploi/index.html"
 to = "/relations-entreprises/offres-d-emploi/"
 
 [[redirects]]
+from = "/equipe/campus/index.html"
+to = "/archives/campus/"
+
+[[redirects]]
 from = "/enssat/index.html"
 to = "/ecoles/enssat/"
 
@@ -60,11 +64,11 @@ to = "/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
 
 [[redirects]]
 from = "/campus/index.html"
-to = "/equipe/campus/"
+to = "/archives/campus/"
 
 [[redirects]]
 from = "/formations/campus/index.html"
-to = "/equipe/campus/"
+to = "/archives/campus/"
 
 [[redirects]]
 from = "/equipe/equipe-de-recherche/index.html"
