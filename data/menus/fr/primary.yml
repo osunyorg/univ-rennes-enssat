@@ -131,15 +131,6 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Ingénieur·e sous statut étudiant·e
-    slug: ingenieur-e-sous-statut-etudiant-e
-    target: "/formations/ingenieure-sous-statut-etudiante/"
-    kind: program
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/programs/ingenieure-sous-statut-etudiante"
-    file: content/fr/programs/ingenieure-sous-statut-etudiante/_index.html
   - title: Apprentissage
     slug: apprentissage
     target: ''
@@ -149,7 +140,6 @@ items:
     descendants_targets: []
   descendants_targets:
   - ''
-  - "/formations/ingenieure-sous-statut-etudiante/"
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: International
