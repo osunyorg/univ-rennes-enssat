@@ -20,7 +20,7 @@ to = "/projets/"
 
 [[redirects]]
 from = "/equipe/equipe-administrative/index.html"
-to = "/equipe/nos-equipes/equipe-administrative/"
+to = "/archives/nos-equipes/equipe-administrative/"
 
 [[redirects]]
 from = "/formations/equipe/index.html"
@@ -31,12 +31,20 @@ from = "/offres-d-emploi/2026/test/index.html"
 to = "/relations-entreprises/offres-d-emploi/2026/test/"
 
 [[redirects]]
+from = "/formation-continue/index.html"
+to = "/formations/formation-continue/"
+
+[[redirects]]
 from = "/equipe/equipe-editoriale/index.html"
-to = "/equipe/nos-equipes/equipe-editoriale/"
+to = "/archives/nos-equipes/equipe-editoriale/"
 
 [[redirects]]
 from = "/diplomes/index.html"
 to = "/formations/diplomes/"
+
+[[redirects]]
+from = "/equipe/nos-equipes/equipe-editoriale/index.html"
+to = "/archives/nos-equipes/equipe-editoriale/"
 
 [[redirects]]
 from = "/relations-entreprises/offres-d-emploi/index.html"
@@ -45,6 +53,10 @@ to = "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/
 [[redirects]]
 from = "/actualites/article1/index.html"
 to = "/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
+
+[[redirects]]
+from = "/equipe/nos-equipes/equipe-pedagogique/index.html"
+to = "/archives/nos-equipes/equipe-pedagogique/"
 
 [[redirects]]
 from = "/offres-d-emploi/index.html"
@@ -60,7 +72,7 @@ to = "/ecoles/enssat/"
 
 [[redirects]]
 from = "/equipe/equipe-pedagogique/index.html"
-to = "/equipe/nos-equipes/equipe-pedagogique/"
+to = "/archives/nos-equipes/equipe-pedagogique/"
 
 [[redirects]]
 from = "/actualites/2026-01-27-article1/index.html"
@@ -71,10 +83,18 @@ from = "/campus/index.html"
 to = "/archives/campus/"
 
 [[redirects]]
+from = "/equipe/nos-equipes/equipe-de-recherche/index.html"
+to = "/archives/nos-equipes/equipe-de-recherche/"
+
+[[redirects]]
 from = "/formations/campus/index.html"
 to = "/archives/campus/"
 
 [[redirects]]
 from = "/equipe/equipe-de-recherche/index.html"
-to = "/equipe/nos-equipes/equipe-de-recherche/"
+to = "/archives/nos-equipes/equipe-de-recherche/"
+
+[[redirects]]
+from = "/equipe/nos-equipes/equipe-administrative/index.html"
+to = "/archives/nos-equipes/equipe-administrative/"
 
