@@ -27,6 +27,10 @@ from = "/formations/equipe/index.html"
 to = "/equipe/"
 
 [[redirects]]
+from = "/diplome-e-bac-2-ou-3/index.html"
+to = "/vous-etes/diplome-e-bac-2-ou-3/"
+
+[[redirects]]
 from = "/offres-d-emploi/2026/test/index.html"
 to = "/relations-entreprises/offres-d-emploi/2026/test/"
 
