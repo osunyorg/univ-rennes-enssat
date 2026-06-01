@@ -37,4 +37,13 @@ items:
   descendants_targets: []
   path: "/pages/integrer-l-ecole/aspirant-e-apprenti-e"
   file: content/fr/pages/integrer-l-ecole/aspirant-e-apprenti-e/_index.html
+- title: Chercheur·euse
+  slug: chercheur-euse
+  target: "/integrer-l-ecole/chercheur-euse/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/integrer-l-ecole/chercheur-euse"
+  file: content/fr/pages/integrer-l-ecole/chercheur-euse/_index.html
 
