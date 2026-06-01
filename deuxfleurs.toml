@@ -19,6 +19,10 @@ from = "/formations/projets/index.html"
 to = "/projets/"
 
 [[redirects]]
+from = "/integrer-l-ecole/aspirant-apprenti/index.html"
+to = "/integrer-l-ecole/aspirant-e-apprenti-e/"
+
+[[redirects]]
 from = "/equipe/equipe-administrative/index.html"
 to = "/archives/nos-equipes/equipe-administrative/"
 
@@ -27,12 +31,32 @@ from = "/formations/equipe/index.html"
 to = "/equipe/"
 
 [[redirects]]
+from = "/vous-etes/aspirant-apprenti/index.html"
+to = "/integrer-l-ecole/aspirant-e-apprenti-e/"
+
+[[redirects]]
+from = "/vous-etes/index.html"
+to = "/integrer-l-ecole/"
+
+[[redirects]]
+from = "/vous-etes/bachelier-e-s/index.html"
+to = "/integrer-l-ecole/bachelier-e-s/"
+
+[[redirects]]
 from = "/diplome-e-bac-2-ou-3/index.html"
-to = "/vous-etes/diplome-e-bac-2-ou-3/"
+to = "/integrer-l-ecole/diplome-e-bac-2-ou-3/"
+
+[[redirects]]
+from = "/vous-etes/candidat-cpge/index.html"
+to = "/integrer-l-ecole/candidat-e-cpge/"
 
 [[redirects]]
 from = "/offres-d-emploi/2026/test/index.html"
 to = "/relations-entreprises/offres-d-emploi/2026/test/"
+
+[[redirects]]
+from = "/integrer-l-ecole/candidat-cpge/index.html"
+to = "/integrer-l-ecole/candidat-e-cpge/"
 
 [[redirects]]
 from = "/formation-continue/index.html"
@@ -45,6 +69,10 @@ to = "/archives/nos-equipes/equipe-editoriale/"
 [[redirects]]
 from = "/diplomes/index.html"
 to = "/formations/diplomes/"
+
+[[redirects]]
+from = "/vous-etes/diplome-e-bac-2-ou-3/index.html"
+to = "/integrer-l-ecole/diplome-e-bac-2-ou-3/"
 
 [[redirects]]
 from = "/equipe/nos-equipes/equipe-editoriale/index.html"
