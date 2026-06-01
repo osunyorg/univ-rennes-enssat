@@ -55,8 +55,108 @@ items:
   target: "/formations/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Ingénieur·e Informatique
+    slug: ingenieur-e-informatique
+    target: "/formations/ingenieure-informatique/"
+    kind: program
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/programs/ingenieure-informatique"
+    file: content/fr/programs/ingenieure-informatique/_index.html
+  - title: Ingénieur·e Photonique
+    slug: ingenieur-e-photonique
+    target: "/formations/ingenieure-photonique/"
+    kind: program
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/programs/ingenieure-photonique"
+    file: content/fr/programs/ingenieure-photonique/_index.html
+  - title: Apprenti·e Ingénieur·e Informatique
+    slug: apprenti-e-ingenieur-e-informatique
+    target: "/formations/apprentie-ingenieure-informatique/"
+    kind: program
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/programs/apprentie-ingenieure-informatique"
+    file: content/fr/programs/apprentie-ingenieure-informatique/_index.html
+  - title: Apprenti·e Ingénieur·e Photonique
+    slug: apprenti-e-ingenieur-e-photonique
+    target: "/formations/apprentie-ingenieure-photonique/"
+    kind: program
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/programs/apprentie-ingenieure-photonique"
+    file: content/fr/programs/apprentie-ingenieure-photonique/_index.html
+  - title: Post bac physique et photonique
+    slug: post-bac-physique-et-photonique
+    target: "/formations/post-bac-physique-et-photonique/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/formations/post-bac-physique-et-photonique"
+    file: content/fr/pages/formations/post-bac-physique-et-photonique/_index.html
+  - title: Post bac cybersécurité
+    slug: post-bac-cybersecurite
+    target: "/formations/post-bac-cybersecurite/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/formations/post-bac-cybersecurite"
+    file: content/fr/pages/formations/post-bac-cybersecurite/_index.html
+  - title: Continuum CPGE
+    slug: continuum-cpge
+    target: "/formations/continuum-cpge/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/formations/continuum-cpge"
+    file: content/fr/pages/formations/continuum-cpge/_index.html
+  - title: Masters & doctorats
+    slug: masters-doctorats
+    target: "/formations/masters-doctorats/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/formations/masters-doctorats"
+    file: content/fr/pages/formations/masters-doctorats/_index.html
+  - title: Formation à distance
+    slug: formation-a-distance
+    target: "/formations/formation-a-distance/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/formations/formation-a-distance"
+    file: content/fr/pages/formations/formation-a-distance/_index.html
+  - title: Formation continue
+    slug: formation-continue
+    target: "/formations/formation-continue/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/formations/formation-continue"
+    file: content/fr/pages/formations/formation-continue/_index.html
+  descendants_targets:
+  - "/formations/apprentie-ingenieure-informatique/"
+  - "/formations/apprentie-ingenieure-photonique/"
+  - "/formations/continuum-cpge/"
+  - "/formations/formation-a-distance/"
+  - "/formations/formation-continue/"
+  - "/formations/ingenieure-informatique/"
+  - "/formations/ingenieure-photonique/"
+  - "/formations/masters-doctorats/"
+  - "/formations/post-bac-cybersecurite/"
+  - "/formations/post-bac-physique-et-photonique/"
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: International
@@ -65,6 +165,24 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Venir se former depuis l'international
+    slug: venir-se-former-depuis-l-international
+    target: "/international/venir-se-former-depuis-linternational/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/international/venir-se-former-depuis-linternational"
+    file: content/fr/pages/international/venir-se-former-depuis-linternational/_index.html
+  - title: Acceuil des étudiants étrangers
+    slug: acceuil-des-etudiants-etrangers
+    target: "/international/acceuil-des-etudiants-etrangers/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/international/acceuil-des-etudiants-etrangers"
+    file: content/fr/pages/international/acceuil-des-etudiants-etrangers/_index.html
   - title: Summer School
     slug: summer-school
     target: ''
@@ -72,8 +190,20 @@ items:
     new_tab: false
     children: []
     descendants_targets: []
+  - title: Opportunités de mobilité
+    slug: opportunites-de-mobilite
+    target: "/international/opportunites-de-mobilite/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/international/opportunites-de-mobilite"
+    file: content/fr/pages/international/opportunites-de-mobilite/_index.html
   descendants_targets:
   - ''
+  - "/international/acceuil-des-etudiants-etrangers/"
+  - "/international/opportunites-de-mobilite/"
+  - "/international/venir-se-former-depuis-linternational/"
   path: "/pages/international"
   file: content/fr/pages/international/_index.html
 - title: Vie étudiante
@@ -82,29 +212,57 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Un cadre de vie unique
-    slug: un-cadre-de-vie-unique
-    target: ''
-    kind: url
+  - title: Découvrir le campus
+    slug: decouvrir-le-campus
+    target: "/vie-etudiante/decouvrir-le-campus/"
+    kind: page
     new_tab: false
     children: []
     descendants_targets: []
-  - title: Un territoire innovant
-    slug: un-territoire-innovant
-    target: ''
-    kind: blank
-    new_tab: false
-    children: []
-    descendants_targets: []
+    path: "/pages/vie-etudiante/decouvrir-le-campus"
+    file: content/fr/pages/vie-etudiante/decouvrir-le-campus/_index.html
   - title: Vie associative
     slug: vie-associative
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/vie-associative/"
+    kind: page
     new_tab: false
     children: []
     descendants_targets: []
+    path: "/pages/vie-etudiante/vie-associative"
+    file: content/fr/pages/vie-etudiante/vie-associative/_index.html
+  - title: Culture et loisirs
+    slug: culture-et-loisirs
+    target: "/vie-etudiante/culture-et-loisirs/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/vie-etudiante/culture-et-loisirs"
+    file: content/fr/pages/vie-etudiante/culture-et-loisirs/_index.html
+  - title: Se restaurer
+    slug: se-restaurer
+    target: "/vie-etudiante/se-restaurer/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/vie-etudiante/se-restaurer"
+    file: content/fr/pages/vie-etudiante/se-restaurer/_index.html
+  - title: Se loger
+    slug: se-loger
+    target: "/vie-etudiante/se-loger/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/vie-etudiante/se-loger"
+    file: content/fr/pages/vie-etudiante/se-loger/_index.html
   descendants_targets:
-  - ''
+  - "/vie-etudiante/culture-et-loisirs/"
+  - "/vie-etudiante/decouvrir-le-campus/"
+  - "/vie-etudiante/se-loger/"
+  - "/vie-etudiante/se-restaurer/"
+  - "/vie-etudiante/vie-associative/"
   path: "/pages/vie-etudiante"
   file: content/fr/pages/vie-etudiante/_index.html
 - title: Entreprises
@@ -113,17 +271,47 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Offre d'emploi
-    slug: offre-d-emploi
-    target: "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
+  - title: Devenir partenaire
+    slug: devenir-partenaire
+    target: "/relations-entreprises/devenir-partenaire/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/jobs"
-    file: content/fr/jobs/_index.html
+    path: "/pages/relations-entreprises/devenir-partenaire"
+    file: content/fr/pages/relations-entreprises/devenir-partenaire/_index.html
+  - title: Taxe d'apprentissage
+    slug: taxe-d-apprentissage
+    target: "/relations-entreprises/taxe-dapprentissage/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/relations-entreprises/taxe-dapprentissage"
+    file: content/fr/pages/relations-entreprises/taxe-dapprentissage/_index.html
+  - title: Recrutez en stage ou en alternance
+    slug: recrutez-en-stage-ou-en-alternance
+    target: "/relations-entreprises/recrutez-en-stage-ou-en-alternance/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/relations-entreprises/recrutez-en-stage-ou-en-alternance"
+    file: content/fr/pages/relations-entreprises/recrutez-en-stage-ou-en-alternance/_index.html
+  - title: Location de ressources
+    slug: location-de-ressources
+    target: "/relations-entreprises/location-de-ressources/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/relations-entreprises/location-de-ressources"
+    file: content/fr/pages/relations-entreprises/location-de-ressources/_index.html
   descendants_targets:
-  - "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
+  - "/relations-entreprises/devenir-partenaire/"
+  - "/relations-entreprises/location-de-ressources/"
+  - "/relations-entreprises/recrutez-en-stage-ou-en-alternance/"
+  - "/relations-entreprises/taxe-dapprentissage/"
   path: "/pages/relations-entreprises"
   file: content/fr/pages/relations-entreprises/_index.html
 
