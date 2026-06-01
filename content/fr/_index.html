@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2025-05-27T17:37:21+02:00
-lastmod: 2026-06-01T18:57:26+02:00
+lastmod: 2026-06-01T19:08:54+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-05-27T17:37:21+02:00
-    updated_at: 2026-06-01T18:57:26+02:00
+    updated_at: 2026-06-01T19:08:54+02:00
     published_at: 2025-05-27T17:37:21+02:00
 search:
   id: "5d6d50a2-2593-4916-8e1f-7efc127a7b5f"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>L'école d'ingénieurs publique du numérique et de la photonique  </p>
   body: >-
-    <p>Nos domaines d’expertise </p>  <p>Informatique <br>Cybersécurité, intelligence artificielle, systèmes embarqués... En savoir plus</p>  <p>Photonique</p>  <p>Technologies laser, biophotonique, photonique quantique, télécoms... En savoir plus</p>  <p> Intégrer l'école </p>
+    <p>Nos domaines d’expertise </p>  <p>Informatique <br>Cybersécurité, intelligence artificielle, systèmes embarqués... En savoir plus</p>  <p>Photonique</p>  <p>Technologies laser, biophotonique, photonique quantique, télécoms... En savoir plus</p>  <p> Intégrer l'école </p>  <p> Évènements </p>  <p> Les 30 et 31 janvier 2026  <br>Venez nous rencontrer lors des journées portes ouvertes</p>  <p>Candidater <br>/integrer-l-enssat/</p>  <p> Témoignages  <br>L’ENSSAT délivre des formations d’excellente qualité, le tout dans une super ambiance, je ne peux que recommander ! <br>Justin Puyo <br>Ancien étudiant en BTS photonique</p>  <p> Actualités </p>
 
 breadcrumbs:
   - title: >-
@@ -50,6 +50,10 @@ position: 1
 weight: 1
 
 translationKey: communication-website-page-b527b030-18ae-461f-bb31-4fe2d4c01657
+
+image:
+  id: "e7677cc1-c31e-475b-b832-4d94d12e514f"
+  alt: ""
 
 
 
@@ -124,14 +128,14 @@ child_pages:
 summary: >-
   <p>L'école d'ingénieurs publique du numérique et de la photonique  </p>
 header_cta:
-  target: "/vous-etes/"
+  target: "/integrer-l-ecole/"
   external: false
   label: >-
     Candidater
 
 
 contents_reading_time:
-  seconds: 8
+  seconds: 21
   text: >-
     moins d'une minute
 contents:
@@ -233,6 +237,157 @@ contents:
 
       quantity: 4
 
+
+
+  - kind: block
+    template: pages
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      options:
+        image: true
+        subtitle: false
+        categories: false
+        main_summary: false
+        summary: true
+
+      layout: grid
+      pages:
+        - permalink: "/equipe/qui-sommes-nous/"
+          path: "/pages/equipe/qui-sommes-nous"
+          slug: "qui-sommes-nous"
+          file: "content/fr/pages/equipe/qui-sommes-nous/_index.html"
+          name: >-
+            Qui sommes-nous ?
+        - permalink: "/equipe/choisir-lenssat/"
+          path: "/pages/equipe/choisir-lenssat"
+          slug: "choisir-lenssat"
+          file: "content/fr/pages/equipe/choisir-lenssat/_index.html"
+          name: >-
+            Choisir l'ENSSAT
+        - permalink: "/equipe/engagements-et-certifications/"
+          path: "/pages/equipe/engagements-et-certifications"
+          slug: "engagements-et-certifications"
+          file: "content/fr/pages/equipe/engagements-et-certifications/_index.html"
+          name: >-
+            Engagements et certifications
+
+      quantity: 3
+
+
+  - kind: block
+    template: call_to_action
+    title: >-
+      Les 30 et 31 janvier 2026
+    slug: >-
+      les-30-et-31-janvier-2026
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Les 30 et 31 janvier 2026
+        heading: 2
+      description: >-
+        <p>Venez nous rencontrer lors des journées portes ouvertes</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>Venez nous rencontrer lors des journées portes ouvertes</p>
+
+      buttons:
+        - 
+          title: >-
+            Candidater
+          url: >-
+            /integrer-l-enssat/
+          target_blank: false
+
+
+  - kind: block
+    template: testimonials
+    title: >-
+      Témoignages
+    slug: >-
+      temoignages
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Témoignages
+        heading: 2
+        screen_reader_only: true
+
+    data:
+      layout: carousel
+      testimonials:
+        - 
+          text: >-
+            <p>L’ENSSAT délivre des formations d’excellente qualité, le tout dans une super ambiance, je ne peux que recommander !</p>
+          author: >-
+            Justin Puyo
+          job: >-
+            Ancien étudiant en BTS photonique
+
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Actualités
+    slug: >-
+      actualites
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Actualités
+        heading: 2
+        link: "/actualites/"
+
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        author: false
+        categories: true
+        date: true
+        image: true
+        reading_time: true
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
+          path: "/posts/2026/2026-01-27-visite-de-lenssat-et-de-linstitut-foton"
+          slug: "visite-de-lenssat-et-de-linstitut-foton"
+          file: "content/fr/posts/2026/2026-01-27-visite-de-lenssat-et-de-linstitut-foton.html"
+          name: >-
+            Visite de l'ENSSAT et de l'institut Foton
+        - permalink: "/actualites/2025-05-19-8e-edition-du-concours-droneload-a-lannion/"
+          path: "/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion"
+          slug: "8e-edition-du-concours-droneload-a-lannion"
+          file: "content/fr/posts/2025/2025-05-19-8e-edition-du-concours-droneload-a-lannion.html"
+          name: >-
+            8e édition du concours DroneLoad à Lannion
+
+      quantity: 2
 
 
 
