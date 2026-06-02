@@ -66,15 +66,34 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Ingénieur·e Informatique
-    slug: ingenieur-e-informatique
-    target: "/formations/ingenieure-informatique/"
-    kind: program
+  - title: Informatique
+    slug: informatique
+    target: "/formations/informatique/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Ingénieur·e Informatique
+      slug: ingenieur-e-informatique
+      target: "/formations/ingenieure-informatique/"
+      kind: program
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/programs/ingenieure-informatique"
+      file: content/fr/programs/ingenieure-informatique/_index.html
+    descendants_targets:
+    - "/formations/ingenieure-informatique/"
+    path: "/pages/formations/informatique"
+    file: content/fr/pages/formations/informatique/_index.html
+  - title: Photonique
+    slug: photonique
+    target: "/formations/photonique/"
+    kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/programs/ingenieure-informatique"
-    file: content/fr/programs/ingenieure-informatique/_index.html
+    path: "/pages/formations/photonique"
+    file: content/fr/pages/formations/photonique/_index.html
   - title: Ingénieur·e Photonique
     slug: ingenieur-e-photonique
     target: "/formations/ingenieure-photonique/"
@@ -162,9 +181,11 @@ items:
   - "/formations/continuum-cpge/"
   - "/formations/formation-a-distance/"
   - "/formations/formation-continue/"
+  - "/formations/informatique/"
   - "/formations/ingenieure-informatique/"
   - "/formations/ingenieure-photonique/"
   - "/formations/masters-doctorats/"
+  - "/formations/photonique/"
   - "/formations/post-bac-cybersecurite/"
   - "/formations/post-bac-physique-et-photonique/"
   path: "/programs"
