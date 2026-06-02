@@ -81,7 +81,17 @@ items:
       descendants_targets: []
       path: "/programs/ingenieure-informatique"
       file: content/fr/programs/ingenieure-informatique/_index.html
+    - title: Apprenti·e Ingénieur·e Informatique
+      slug: apprenti-e-ingenieur-e-informatique
+      target: "/formations/apprentie-ingenieure-informatique/"
+      kind: program
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/programs/apprentie-ingenieure-informatique"
+      file: content/fr/programs/apprentie-ingenieure-informatique/_index.html
     descendants_targets:
+    - "/formations/apprentie-ingenieure-informatique/"
     - "/formations/ingenieure-informatique/"
     path: "/pages/formations/informatique"
     file: content/fr/pages/formations/informatique/_index.html
@@ -90,37 +100,30 @@ items:
     target: "/formations/photonique/"
     kind: page
     new_tab: false
-    children: []
-    descendants_targets: []
+    children:
+    - title: Ingénieur·e Photonique
+      slug: ingenieur-e-photonique
+      target: "/formations/ingenieure-photonique/"
+      kind: program
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/programs/ingenieure-photonique"
+      file: content/fr/programs/ingenieure-photonique/_index.html
+    - title: Apprenti·e Ingénieur·e Photonique
+      slug: apprenti-e-ingenieur-e-photonique
+      target: "/formations/apprentie-ingenieure-photonique/"
+      kind: program
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/programs/apprentie-ingenieure-photonique"
+      file: content/fr/programs/apprentie-ingenieure-photonique/_index.html
+    descendants_targets:
+    - "/formations/apprentie-ingenieure-photonique/"
+    - "/formations/ingenieure-photonique/"
     path: "/pages/formations/photonique"
     file: content/fr/pages/formations/photonique/_index.html
-  - title: Ingénieur·e Photonique
-    slug: ingenieur-e-photonique
-    target: "/formations/ingenieure-photonique/"
-    kind: program
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/programs/ingenieure-photonique"
-    file: content/fr/programs/ingenieure-photonique/_index.html
-  - title: Apprenti·e Ingénieur·e Informatique
-    slug: apprenti-e-ingenieur-e-informatique
-    target: "/formations/apprentie-ingenieure-informatique/"
-    kind: program
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/programs/apprentie-ingenieure-informatique"
-    file: content/fr/programs/apprentie-ingenieure-informatique/_index.html
-  - title: Apprenti·e Ingénieur·e Photonique
-    slug: apprenti-e-ingenieur-e-photonique
-    target: "/formations/apprentie-ingenieure-photonique/"
-    kind: program
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/programs/apprentie-ingenieure-photonique"
-    file: content/fr/programs/apprentie-ingenieure-photonique/_index.html
   - title: Post bac physique et photonique
     slug: post-bac-physique-et-photonique
     target: "/formations/post-bac-physique-et-photonique/"
