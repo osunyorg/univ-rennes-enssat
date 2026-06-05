@@ -1,22 +1,32 @@
 .page__home
     .hero
-        .container
-            position: relative
-            .content
-                .hero-text
-                    position: relative
-                    z-index: 2
-                .has-lead
-                    p
-                        font-weight: $light
+        position: relative
+        .content
+            .hero-text
+                position: relative
+                z-index: 2
+            .has-lead
+                p
+                    font-weight: $light
+        .hero-image
+            inset: 0
+            position: absolute
+            width: auto
+            picture, img
+                width: columns(9)
+                height: 100%
+                object-fit: cover
+                object-position: center left
+        @include media-breakpoint-down(xxl)
             .hero-image
-                inset: 0
-                position: absolute
-                width: auto
                 picture, img
-                    width: columns(8)
-                    height: 100%
-                    object-fit: cover
-                    object-position: bottom left
-                    @include media-breakpoint-down(desktop)
-                        width: 100%
+                    width: 100%
+        @include media-breakpoint-up(desktop)
+            .hero-text
+                width: 100%
+                display: flex
+                justify-content: space-between
+                gap: var(--grid-gutter)
+                padding-bottom: var(--grid-gutter)
+                hgroup
+                    width: columns(9)

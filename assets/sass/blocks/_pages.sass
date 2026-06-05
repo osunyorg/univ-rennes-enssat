@@ -1,0 +1,14 @@
+.block-pages.block-class-expertise
+    &:first-child
+        background: var(--color-text)
+        color: var(--color-background)
+        margin-top: 0 !important
+        margin-bottom: 0 !important
+        padding-top: var(--grid-gutter)
+        padding-bottom: var(--grid-gutter)
+        a
+            color: inherit
+            @include h2
+    @include media-breakpoint-up(desktop)
+        .pages
+            @include grid(2)
