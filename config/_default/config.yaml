@@ -14,3 +14,18 @@ params:
       level_2:
         title:
           active: true
+
+  components:
+    lightbox:
+      disabled: false
+      in_hero:
+        disabled: true
+
+  image_sizes:
+    sections:
+      home:
+        hero:
+          desktop: 1560
+          additionnal:
+            - rule: "min-width: 1560px"
+              size: 2096

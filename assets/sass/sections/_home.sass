@@ -1,5 +1,22 @@
 .page__home
     .hero
-        .hero-text
-            p
-                font-weight: $light
+        .container
+            position: relative
+            .content
+                .hero-text
+                    position: relative
+                    z-index: 2
+                .has-lead
+                    p
+                        font-weight: $light
+            .hero-image
+                inset: 0
+                position: absolute
+                width: auto
+                picture, img
+                    width: columns(8)
+                    height: 100%
+                    object-fit: cover
+                    object-position: bottom left
+                    @include media-breakpoint-down(desktop)
+                        width: 100%
