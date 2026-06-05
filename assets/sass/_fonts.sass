@@ -1,1 +1,7 @@
-// @include font-face("Font name", font-file-in-fonts-without-extensions)
+$bold: 600
+$light: 300
+
+@include font-face("IBMPlexSans", IBMPlexSans-Regular, $exts: (woff woff2 ttf))
+@include font-face("IBMPlexSans", IBMPlexSans-Italic, $style: italic, $exts: (woff woff2 ttf))
+@include font-face("IBMPlexSans", IBMPlexSans-ExtraLight, $weight: $light, $exts: (woff woff2 ttf))
+@include font-face("IBMPlexSans", IBMPlexSans-SemiBold, $weight: $bold, $exts: (woff woff2 ttf))
