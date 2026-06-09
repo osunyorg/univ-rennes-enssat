@@ -27,3 +27,37 @@
                 .page-title
                     @include h4
                 // TODO
+    .page
+        padding: 0
+        &::after
+            background: var(--color-text)
+            background: linear-gradient(0deg,rgba(0, 0, 0, 1) 50%, rgba(255, 255, 255, 0) 100%)
+            bottom: 0
+            content: ''
+            height: 50%
+            left: 0
+            position: absolute
+            right: 0
+        .page-content
+            bottom: 0
+            position: absolute
+            padding: $spacing-3
+            background: transparent
+            z-index: 2
+            .more
+                padding-top: $spacing-2
+                justify-content: flex-start
+                text-decoration: none
+                &::after
+                    font-size: inherit
+                    opacity: 1
+                    position: relative
+                    transform: none
+        .media
+            margin: 0
+            img
+                aspect-ratio: 320/450
+                object-fit: cover
+        &:hover
+            .more::after
+                transform: translateX(50%)
