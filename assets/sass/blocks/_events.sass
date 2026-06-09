@@ -1,6 +1,24 @@
 .block-agenda
+    .event
+        .event-hours 
+            time + time::before
+                content: '-'
+
     &--list
         @include in-page-without-sidebar
             .event
                 .event-dates
                     @include h4
+                .event-schedule
+                    position: absolute
+                    left: 0
+                .event-content
+                    grid-template-columns: repeat(6, 1fr)
+                    flex: 1
+                    .event-title,
+                    .event-description,
+                    .event-categories
+                        grid-column: 1 / 6
+                .media
+                    order: -1
+                    margin-left: offset(4)
