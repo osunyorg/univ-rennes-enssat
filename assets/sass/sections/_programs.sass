@@ -1,15 +1,25 @@
-.programs__section
+.programs__section,
+.diplomas__term,
+.diplomas__taxonomy
     &.full-width
-        ol.programs--list
-            .program
-                .program-title
+        ol.programs--list,
+        ul.diplomas
+            .program,
+            .diploma
+                [class$="-title"]
                     @include lead
 
-                    @include media-breakpoint-up(desktop)
-                        a
-                            display: flex
-                            justify-content: space-between
-                            gap: var(--grid-gutter)
+.programs__section
+    .program-title
+        a::after
+            opacity: 1 !important
+        @include media-breakpoint-up(desktop)
+            a
+                display: flex
+                justify-content: space-between
+                gap: var(--grid-gutter)
+                &::after
+                    order: 3
 
     .hero
         .buttons
@@ -26,3 +36,7 @@
             
             @include media-breakpoint-up(desktop)
                 --btn-padding: #{space(4)} #{space(10)}
+
+    .program-table
+        td
+            @include meta
