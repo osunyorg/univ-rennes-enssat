@@ -26,7 +26,6 @@
             .page
                 .page-title
                     @include h4
-                // TODO
     .page
         padding: 0
         &::after
@@ -39,14 +38,17 @@
             position: absolute
             right: 0
         .page-content
+            background: transparent
             bottom: 0
+            justify-content: flex-end
+            height: 100%
             position: absolute
             padding: $spacing-3
-            background: transparent
             z-index: 2
             .more
-                padding-top: $spacing-2
                 justify-content: flex-start
+                margin-top: 0
+                padding-top: $spacing-2
                 text-decoration: none
                 &::after
                     font-size: inherit
