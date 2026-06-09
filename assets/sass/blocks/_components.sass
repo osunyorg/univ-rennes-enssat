@@ -1,0 +1,12 @@
+.block-gallery,
+.block-image
+    figure
+        figcaption
+            @include meta
+            color: var(--color-text-alt)
+        @include media-breakpoint-up(desktop)
+            figcaption
+                border-left: 1px solid var(--color-text-alt)
+                margin-top: 0
+                padding-top: space(5)
+                padding-left: $spacing-2

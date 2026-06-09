@@ -1,0 +1,11 @@
+.block-key_figures
+    ul
+        li
+            .key-figure-text
+                span
+                    @include h2
+                    white-space: nowrap
+            @include media-breakpoint-up(desktop)
+                .key-figure-text
+                    display: flex
+                    gap: space(6)

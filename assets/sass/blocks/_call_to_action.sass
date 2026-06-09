@@ -3,3 +3,10 @@
         .description p
             @include h1
             font-weight: normal
+
+        &--without-image:not(.call_to_action--without-text)
+            @include in-page-without-sidebar
+                > div
+                    .actions
+                        --btn-padding: #{space(4)} #{space(15)}
+                        align-items: flex-end

@@ -14,7 +14,6 @@
 
     .hero
         .buttons
-            --btn-padding: #{space(4)} #{space(10)}
             .dropdown-share
                 button
                     --btn-color: var(--color-background)
@@ -25,3 +24,6 @@
                 order: -1
                 &:hover
                     border: 1px solid var(--color-background)
+            
+            @include media-breakpoint-up(desktop)
+                --btn-padding: #{space(4)} #{space(10)}
