@@ -2,9 +2,12 @@ $heading-font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif
 $body-font-family: $heading-font-family
 
 $color-text: #000000
-$color-text-alt: #B2B2B2
+$color-text-alt: #666666
 $color-background: #FFFFFF
 $color-accent: #121222
+
+// custom colors
+$electrical-blue: rgba(31, 10, 223, 1)
 
 $heading-font-family: "IBMPlexSans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 $body-font-family: $heading-font-family
@@ -33,7 +36,19 @@ $h1-size-desktop: pxToRem(53)
 $h1-line-height: 100%
 $h1-weight: $bold
 
+// h2
+$h2-size-desktop: pxToRem(76)
+$h2-line-height: 100%
+$h2-weight: $bold
+
+// h4
+$h4-size-desktop: pxToRem(38)
+$h4-line-height: 100%
+$h4-font-family: $body-font-family
+$h4-weight: normal
+
 // h3
+$h3-size-desktop: pxToRem(28)
 $h3-line-height: 100%
 
 // h5 or Section
@@ -60,3 +75,12 @@ $block-pages-card-page-background: var(--color-text)
 $block-pages-card-page-color: var(--color-background)
 $block-pages-card-page-background-hover: var(--color-accent)
 $block-pages-card-page-color-hover: var(--color-background)
+
+
+// New icons
+$icons-custom-font-family: 'icomoon'
+$icons-custom: ()
+$icons-custom: map-merge($icons-custom, ("share-fill": "\e900"))
+$icons-custom: map-merge($icons-custom, ("arrow-right-line": "\e901"))
+$icons-custom: map-merge($icons-custom, ("download-2-line": "\e902"))
+$icons-custom: map-merge($icons-custom, ("search-line": "\e903"))
