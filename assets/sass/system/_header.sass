@@ -1,10 +1,59 @@
 #document-header
-    .nav-level-1
-        .dropdown-menu-title
-          @include lead
-        
-        .active
-            color: $electrical-blue
+    .menu
+        .nav-level-1
+            .dropdown-menu-title
+                @include lead
+            
+            .active
+                color: $electrical-blue
+
+        // special menu for 'vous êtes'
+        @include media-breakpoint-up(desktop)
+            .menu-class-integration
+                position: relative
+                order: 10
+                margin-left: $spacing-4
+                > span
+                    @include button-large
+                    --btn-border: 0
+                    background: var(--color-text)
+                    min-width: unset
+                    padding: #{space(4)} #{space(11)}
+                    &, html.has-menu-opened &
+                        color: var(--color-background)
+                    &:hover,
+                    &:focus,
+                    &[aria-expanded="true"]
+                        border: none
+                        background: $electrical-blue
+                        color: var(--color-background)
+                
+                .dropdown-menu
+                    background: transparent !important
+                    inset: unset
+                    padding: $spacing-1 0 0
+                    right: 0
+                    .container
+                        margin-left: unset
+                        margin-right: unset
+                        padding-left: unset
+                        padding-right: unset
+                        width: unset
+                        max-width: unset
+
+                    .dropdown-menu-heading
+                        display: none
+
+                    .nav-level-2 
+                        background: var(--color-background)
+                        border: 1px solid var(--color-border)
+                        border-radius: 30px
+                        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1)
+                        color: var(--color-text)
+                        padding: space(4)
+                        width: unset
+                        li a
+                            @include meta
 
 html.has-menu-opened 
     body::after
