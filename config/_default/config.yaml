@@ -9,6 +9,9 @@ params:
     header: '/assets/images/logo_header.svg'
     footer: '/assets/images/logo_footer.svg'
 
+  i18n:
+    positions: none
+
   menu:
     primary:
       level_2:

@@ -7,6 +7,7 @@
     &--list
         @include in-page-without-sidebar
             .event
+                min-height: 100px
                 .event-dates
                     @include h4
                 .event-schedule
@@ -22,3 +23,7 @@
                 .media
                     order: -1
                     margin-left: offset(4)
+
+                &:not(.event--with-image)
+                    .event-content
+                        margin-left: offset(4)

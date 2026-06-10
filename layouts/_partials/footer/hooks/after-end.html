@@ -1,0 +1,22 @@
+<div class="additionnal-footer">
+  <div class="container">
+    <div class="certifications">
+      <img src="/assets/images/logos/cti.svg" alt="CTI - Commission des titres d'ingénieur">
+    </div>
+    <div class="links">
+      {{ $networks_menu := partial "GetMenu" "extranets-menu" }}
+      {{ if $networks_menu }}
+        {{ partial "commons/menu.html" (dict
+            "kind" "networks-menu"
+            "level" 1
+            "context" .
+            "class" "networks-menu"
+          )}}
+      {{ end }}
+      {{ partial "commons/menu/i18n.html" (dict
+        "kind" "additionnal-footer"
+        "context" .
+      ) }}
+    </div>
+  </div>
+</div>
