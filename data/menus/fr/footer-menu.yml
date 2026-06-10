@@ -1,0 +1,45 @@
+---
+title: Menu du pied de page
+items:
+- title: Admission
+  slug: admission
+  target: ''
+  kind: url
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/integrer-l-ecole"
+  file: content/fr/pages/integrer-l-ecole/_index.html
+- title: Recherche
+  slug: recherche
+  target: ''
+  kind: url
+  new_tab: false
+  children: []
+  descendants_targets: []
+- title: Actualités
+  slug: actualites
+  target: "/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
+- title: Événements
+  slug: evenements
+  target: "/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/events"
+  file: content/fr/events/_index.html
+- title: Contact
+  slug: contact
+  target: ''
+  kind: url
+  new_tab: false
+  children: []
+  descendants_targets: []
+
