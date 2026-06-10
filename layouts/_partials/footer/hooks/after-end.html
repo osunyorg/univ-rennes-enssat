@@ -7,13 +7,13 @@
       <img src="/assets/images/logos/cdefi.svg" class="logo-large" alt="CDEFI - Conférence des Directeurs des Écoles Françaises d'Ingénieurs">
     </div>
     <div class="links">
-      {{ $networks_menu := partial "GetMenu" "extranets-menu" }}
-      {{ if $networks_menu }}
+      {{ $network_menu := partial "GetMenu" "extranets-menu" }}
+      {{ if $network_menu }}
         {{ partial "commons/menu.html" (dict
             "kind" "extranets-menu"
             "level" 1
             "context" .
-            "class" "networks-menu"
+            "class" "network-menu"
           )}}
       {{ end }}
       {{ partial "commons/menu/i18n.html" (dict
