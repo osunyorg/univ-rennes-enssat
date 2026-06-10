@@ -14,3 +14,39 @@
         .call_to_action .actions a:first-child
             --btn-hover-background: #{$electrical-blue}
             --btn-hover-border: 1px solid  #{$electrical-blue}
+
+    &.block-class-image-as-background
+        position: relative
+        overflow: hidden
+        .call_to_action--with-image
+            > div
+                position: relative
+                z-index: 2
+        figure
+            pointer-events: none
+            position: absolute
+            inset: 0
+            margin-bottom: 0 !important
+            div, picture, img
+                height: 100%
+                width: 100%
+            img
+                object-fit: cover
+    
+        @include in-page-without-sidebar
+            .call_to_action--with-image
+                > div
+                    align-items: center
+                    display: flex
+                    gap: var(--grid-gutter)
+                    grid-column: 1/13
+                    .top
+                        width: columns(8)
+                    .actions
+                        margin-top: 0
+                        text-align: right
+                        width: columns(4)
+                        a
+                            margin-right: 0
+                            &:first-child
+                                margin-top: 0
