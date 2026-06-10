@@ -38,3 +38,12 @@
     .program-table
         td
             @include meta
+
+.programs--list
+    .program:hover
+        background: $electrical-blue
+        .program-title
+            a, a:hover
+                color: var(--color-background)
+                &::after
+                    transform: none
