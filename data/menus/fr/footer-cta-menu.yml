@@ -1,0 +1,18 @@
+---
+title: Appels à action (pied de page)
+items:
+- title: Découvrir l'école
+  slug: decouvrir-l-ecole
+  target: ''
+  kind: url
+  new_tab: false
+  children: []
+  descendants_targets: []
+- title: Candidater
+  slug: candidater
+  target: ''
+  kind: url
+  new_tab: false
+  children: []
+  descendants_targets: []
+
