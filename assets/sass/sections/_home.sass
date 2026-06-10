@@ -1,12 +1,22 @@
 .page__home
     .hero
         position: relative
+        &::after
+            background: var(--color-text)
+            background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%)
+            bottom: 0
+            content: ''
+            height: 10%
+            left: 0
+            position: absolute
+            right: 0
         .content
             .hero-text
                 position: relative
                 z-index: 2
             .has-lead
                 p
+                    @include lead
                     font-weight: $light
         .hero-image
             inset: 0
@@ -17,11 +27,16 @@
                 height: 100%
                 object-fit: cover
                 object-position: center left
+
         @include media-breakpoint-down(xxl)
             .hero-image
+                margin-left: 0
+                margin-right: 0
                 picture, img
                     width: 100%
+
         @include media-breakpoint-up(desktop)
+            min-height: pxToRem(610)
             .hero-text
                 width: 100%
                 display: flex
@@ -29,4 +44,4 @@
                 gap: var(--grid-gutter)
                 padding-bottom: var(--grid-gutter)
                 hgroup
-                    width: columns(9)
+                    width: offset(7)
