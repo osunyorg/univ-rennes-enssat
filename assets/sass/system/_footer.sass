@@ -7,16 +7,18 @@
             display: flex
             flex-wrap: wrap
             gap: space(5)
+            justify-content: flex-end
             li + li
                 margin-top: 0
         a
             @include button
-        li:first-child a
+        li a
             --btn-border: 1px solid var(--color-background)
             --btn-color: var(--color-background)
         li:last-child a
             --btn-background: var(--color-background)
             --btn-border: 1px solid var(--color-background)
+            --btn-color: var(--color-text)
 
     .footer-logos
         > * + *
@@ -49,6 +51,8 @@
                 color: alphaColor(var(--color-background), 0.8)
                 font-size: pxToRem(20)
                 margin-left: 0
+            li:hover::after
+                color: $footer-color
 
     @include media-breakpoint-down(desktop)
         .container:first-child
@@ -94,14 +98,15 @@
     color: $footer-color
     padding: space(5) 0
     a
-        color: inherit
+        @include link($footer-color)
 
-    .certifications
+    .logos
         display: flex
         gap: var(--grid-gutter)
         flew-wrap: wrap
         img
             height: pxToRem(40)
+            mix-blend-mode: soft-light
 
     .networks-menu
         @include list-reset
