@@ -101,12 +101,15 @@
         @include link($footer-color)
 
     .logos
+        align-items: center
         display: flex
-        gap: var(--grid-gutter)
         flew-wrap: wrap
+        gap: var(--grid-gutter)
         img
             height: pxToRem(40)
             mix-blend-mode: soft-light
+        .logo-large
+            height: pxToRem(70)
 
     .networks-menu
         @include list-reset
