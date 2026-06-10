@@ -59,6 +59,10 @@
                 a
                     --btn-large-padding: #{pxToRem(14)} #{space(6)}
 
+        .footer-content
+            > * + *
+                margin-top: $spacing-5
+
     @include media-breakpoint-up(desktop)
         .container:nth-child(2)
             align-items: flex-start !important
@@ -88,14 +92,34 @@
 
 .additionnal-footer
     background-color: $footer-additionnal-background
+    color: $footer-color
+    padding: space(5) 0
+    a
+        color: inherit
+
     .certifications
         display: flex
         gap: var(--grid-gutter)
-        padding: space(5) 0
+        flew-wrap: wrap
         img
             height: pxToRem(40)
 
     .networks-menu
+        @include list-reset
+        @include meta
+        display: flex
+        align-items: baseline
         li + li
             &::before
                 content: '·'
+                margin: 0 $spacing-1
+    
+    @include media-breakpoint-down(desktop)
+        .container
+            > * + *
+                margin-top: $spacing-5
+    @include media-breakpoint-up(desktop)
+        .container
+            align-items: center
+            display: flex
+            justify-content: space-between

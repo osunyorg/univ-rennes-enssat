@@ -10,7 +10,8 @@ params:
     footer: '/assets/images/logo_footer.svg'
 
   i18n:
-    positions: none
+    positions:
+      - additionnal-footer #custom
 
   menu:
     primary:
