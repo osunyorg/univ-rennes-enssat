@@ -3,14 +3,14 @@ title: Réseau
 items:
 - title: Extranet ENSSAT
   slug: extranet-enssat
-  target: "#"
+  target: ''
   kind: url
   new_tab: true
   children: []
   descendants_targets: []
 - title: Intranet ENT
   slug: intranet-ent
-  target: ''
+  target: https://intranet.univ-rennes.fr/
   kind: url
   new_tab: true
   children: []

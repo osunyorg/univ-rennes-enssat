@@ -15,11 +15,26 @@ fr:
             enssat
           value: >-
             https://www.facebook.com/enssat
+        instagram:
+          label: >-
+            enssat_lannion
+          value: >-
+            https://instagram.com/enssat_lannion
         linkedin:
           label: >-
             linkedin.comschoolenssat
           value: >-
             https://www.linkedin.com/school/enssat/
+        x:
+          label: >-
+            enssat?lang=fr
+          value: >-
+            https://x.com/enssat?lang=fr
+        youtube:
+          label: >-
+            channelUCHu4nXDst8MkC_NPX5i87Ug
+          value: >-
+            https://www.youtube.com/@channelUCHu4nXDst8MkC_NPX5i87Ug
 
   taxonomies:
     administrator: administrators
