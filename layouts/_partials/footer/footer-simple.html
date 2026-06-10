@@ -1,0 +1,55 @@
+<div class="container">
+  <p class="lead">{{ i18n "commons.footer.cta.text" }}</p>
+  <div class="footer-cta">
+    {{ $cta_menu := partial "GetMenu" "footer-cta-menu" }}
+    {{ if $cta_menu }}
+      {{ partial "commons/menu.html" (dict
+          "kind" "footer-cta-menu"
+          "level" 1
+          "context" .
+          "class" "footer-cta"
+        )}}
+    {{ end }}
+  </div>
+</div>
+<div class="container">
+  <div class="footer-logos">
+    {{ partial "footer/logo.html" }}
+  </div>
+  <div class="footer-content">
+    <div class="footer-site">
+      <p class="site-title">{{ i18n "commons.footer.site.title" }}</p>
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <span itemprop="streetAddress">6, rue de Kerampont</span>
+        <span itemprop="extendedAddress">CS 80518</span>
+        <span itemprop="addressLocality">22300 Lannion CEDEX</span>
+        <span itemprop="addressCountry">FRANCE</span>
+      </address>
+      <p class="phone-numbers">
+        <span><a itemprop="telephone" href="tel:0296469000">+33 (0)2 96 46 90 00</a></span>
+      </p>
+    </div>
+    <div class="footer-menu">
+      {{ $menu_links := partial "GetMenu" "footer-menu" }}
+      {{ if $menu_links }}
+        {{ partial "commons/menu.html" (dict
+            "kind" "footer-menu"
+            "level" 1
+            "context" .
+            "class" "footer-menu"
+          )}}
+      {{ end }}
+    </div>
+    <div class="footer-legals">
+      {{ partial "footer/legals.html" . }}
+      {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
+        <div class="footer-search">
+          {{ partial "commons/search/button.html" "footer" }}
+        </div>
+      {{ end }}
+      <div class="footer-social">
+        {{ partial "footer/social.html" . }}
+      </div>
+    </div>
+  </div>
+</div>

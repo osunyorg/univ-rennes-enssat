@@ -1,0 +1,81 @@
+#document-footer
+    .container:nth-child(2)
+        margin-top: $spacing-4
+
+    .footer-cta
+        ul
+            display: flex
+            flex-wrap: wrap
+            gap: space(5)
+            li + li
+                margin-top: 0
+        a
+            @include button
+        li:first-child a
+            --btn-border: 1px solid var(--color-background)
+            --btn-color: var(--color-background)
+        li:last-child a
+            --btn-background: var(--color-background)
+            --btn-border: 1px solid var(--color-background)
+
+    .footer-site
+        .site-title
+            font-weight: bold
+        > * + *
+            margin-top: space(7)
+    
+    .footer-menu
+        @include h5
+        li + li
+            margin-top: space(7)
+
+    .footer-legals 
+        a, span
+            color: alphaColor(var(--color-background), 0.8)
+
+    .footer-social
+        .site-links
+            display: flex
+            align-items: baseline
+            flex-wrap: wrap
+            gap: $spacing-2
+            li::after
+                color: alphaColor(var(--color-background), 0.8)
+                font-size: pxToRem(20)
+                margin-left: 0
+
+    @include media-breakpoint-down(desktop)
+        .container:first-child
+            > * + *
+                margin-top: space(7)
+            .footer-cta ul
+                gap: var(--grid-gutter)
+                a
+                    --btn-large-padding: #{pxToRem(14)} #{space(6)}
+
+    @include media-breakpoint-up(desktop)
+        .container:first-child
+
+        .container:nth-child(2)
+            align-items: flex-start !important
+            display: flex
+            gap: var(--grid-gutter)
+        
+        .footer-logo
+            width: columns(4)
+        
+        .footer-content
+            @include grid(3)
+            align-items: baseline
+            flex: 1
+
+        .footer-site
+            text-align: left
+        
+        .footer-legals
+            display: flex
+            flex-direction: column
+            height: 100%
+            > .footer-social
+                margin-top: auto
+                padding-top: space(4)

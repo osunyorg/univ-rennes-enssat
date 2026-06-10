@@ -26,13 +26,17 @@
             .dropdown-share
                 button
                     --btn-color: var(--color-background)
-                    border: 1px solid var(--color-background)
+                    &:not(:hover, :focus)
+                        border: 1px solid var(--color-background)
+                .dropdown-menu 
+                    a:hover
+                        color: alphaColor(var(--color-background), 0.8)
             a[download]
                 background: var(--color-background)
                 color: var(--color-text)
                 order: -1
                 &:hover
-                    border: 1px solid var(--color-background)
+                    background: $electrical-blue
 
     .program-table
         td
