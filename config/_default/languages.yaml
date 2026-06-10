@@ -9,6 +9,17 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            enssat
+          value: >-
+            https://www.facebook.com/enssat
+        linkedin:
+          label: >-
+            linkedin.comschoolenssat
+          value: >-
+            https://www.linkedin.com/school/enssat/
 
   taxonomies:
     administrator: administrators
