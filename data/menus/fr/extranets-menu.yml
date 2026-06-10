@@ -1,0 +1,18 @@
+---
+title: Réseau
+items:
+- title: Extranet ENSSAT
+  slug: extranet-enssat
+  target: "#"
+  kind: url
+  new_tab: true
+  children: []
+  descendants_targets: []
+- title: Intranet ENT
+  slug: intranet-ent
+  target: ''
+  kind: url
+  new_tab: true
+  children: []
+  descendants_targets: []
+
