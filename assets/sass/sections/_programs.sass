@@ -11,23 +11,13 @@
 
 .programs__section
     .hero
+        flex-direction: column
         @include hero-with-centered-image
-        hgroup
-            p
-                display: none
+        &:has(.essential-container)
+            hgroup
+                p
+                    display: block
 
-    .program-title
-        a::after
-            opacity: 1 !important
-        @include media-breakpoint-up(desktop)
-            a
-                display: flex
-                justify-content: space-between
-                gap: var(--grid-gutter)
-                &::after
-                    order: 3
-
-    .hero
         .buttons
             .dropdown-share
                 button
@@ -41,26 +31,98 @@
                 &:hover
                     background: $electrical-blue
 
+    // list with background on hover
+    ol.programs:where(:not(.programs--grid))
+        > li
+            border-bottom: 0
+            margin-left: var(--grid-gutter-negative)
+            margin-right: var(--grid-gutter-negative)
+            padding: 0 var(--grid-gutter)
+            &:hover
+                background: $electrical-blue
+
+        .program-content
+            border-bottom: var(--border-width) solid var(--color-border)
+            padding-bottom: $spacing-3
+            padding-top: $spacing-3
+            width: 100%
+            .program-title
+                a:hover
+                    color: var(--color-background) !important
+                    &::after
+                        transform: none !important
+
+    .program-title
+        a::after
+            opacity: 1 !important
+        @include media-breakpoint-up(desktop)
+            a
+                display: flex
+                justify-content: space-between
+                gap: var(--grid-gutter)
+                &::after
+                    order: 3
+
     .program-table
         td
             @include meta
 
-ol.programs:where(:not(.programs--grid))
-    > li
-        border-bottom: 0
-        margin-left: var(--grid-gutter-negative)
-        margin-right: var(--grid-gutter-negative)
-        padding: 0 var(--grid-gutter)
-        &:hover
-            background: $electrical-blue
+    @include media-breakpoint-down(desktop)
+        .hero
+            .essential-container
+                margin-top: 0
+                padding-bottom: var(--grid-gutter)
 
-    .program-content
-        border-bottom: var(--border-width) solid var(--color-border)
-        padding-bottom: $spacing-3
-        padding-top: $spacing-3
-        width: 100%
-        .program-title
-            a:hover
-                color: var(--color-background) !important
-                &::after
-                    transform: none !important
+    @include media-breakpoint-up(desktop)
+        .hero
+            // hero for single program
+            &:has(.essential-container)
+                // remove style for section's hero text
+                .hero-text
+                    width: columns(8)
+                .content
+                    flex-direction: column // to display logos under text
+                    width: columns(8)
+
+                // figure absolute at right of the hero container
+                figure
+                    bottom: 0
+                    position: absolute
+                    right: 0
+                    top: var(--header-height)
+                    width: offset(4)
+                    img
+                        aspect-ratio: 1
+                        object-fit: cover
+                    picture, img
+                        height: 100%
+
+            // remove margin
+            .hero-logos:empty
+                display: none
+
+            // essentials on 8 cols
+            .essential-container
+                .container
+                    gap: var(--grid-gutter)
+                    padding-right: 0
+                    justify-content: flex-start
+                .essential
+                    @include grid(5)
+                    grid-gap: 0 var(--grid-gutter)
+                    width: columns(5)
+                    dd
+                        grid-column: 3 / 6
+                        a
+                            white-space: normal
+                .buttons
+                    align-items: flex-end
+                    width: columns(3)
+                    a, button
+                        min-width: columns(2.5) !important
+
+    // hide featured image, displayed in hero
+    .featured-image
+        display: none
+        + section
+            margin-top: 0 !important
