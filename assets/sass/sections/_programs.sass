@@ -40,10 +40,15 @@
             @include meta
 
 .programs--list
-    .program:hover
-        background: $electrical-blue
+    .program
+        margin-left: var(--grid-gutter-negative)
+        margin-right: var(--grid-gutter-negative)
+        padding-left: var(--grid-gutter)
+        padding-right: var(--grid-gutter)
+        &:hover
+            background: $electrical-blue
         .program-title
-            a, a:hover
-                color: var(--color-background)
+            a:hover
+                color: var(--color-background) !important
                 &::after
-                    transform: none
+                    transform: none !important
