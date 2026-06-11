@@ -9,3 +9,45 @@
             .dropdown-menu 
                 a:hover
                     color: alphaColor(var(--color-background), 0.8)
+
+@mixin hero-with-centered-image
+    display: flex
+    gap: var(--grid-gutter)
+
+    .content
+        hgroup > p
+            display: none
+        > p
+            @include h3
+            font-weight: normal
+
+    @include media-breakpoint-down(desktop)
+        .content
+            display: flex
+            flex-direction: column
+            gap: var(--grid-gutter)
+            .hero-text
+                margin-bottom: 0
+        figure
+            order: 3
+
+    @include media-breakpoint-up(md)
+        &:not(.hero--with-image)
+            .content
+                > p
+                    margin-left: offset(3)
+
+        &.hero--with-image 
+            .content
+                justify-content: flex-start
+
+        .content
+            gap: var(--grid-gutter)
+            margin-top: $spacing-4
+            .hero-text
+                margin-top: 0
+                width: columns(3)
+            figure
+                width: columns(3)
+            > p
+                flex: 1
