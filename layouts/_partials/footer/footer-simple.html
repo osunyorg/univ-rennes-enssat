@@ -1,18 +1,4 @@
 <div class="container">
-  <p class="lead">{{ i18n "commons.footer.cta.text" }}</p>
-  <div class="footer-cta">
-    {{ $cta_menu := partial "GetMenu" "footer-cta-menu" }}
-    {{ if $cta_menu }}
-      {{ partial "commons/menu.html" (dict
-          "kind" "footer-cta-menu"
-          "level" 1
-          "context" .
-          "class" "footer-cta"
-        )}}
-    {{ end }}
-  </div>
-</div>
-<div class="container">
   <div class="footer-logos">
     {{ partial "footer/logo.html" }}
     <img src="/assets/images/IMT.png" class="logo-imt" alt="École affiliée IMT">

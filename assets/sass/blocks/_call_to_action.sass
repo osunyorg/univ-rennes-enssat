@@ -3,6 +3,15 @@
         .description p
             @include lead
 
+        .actions
+            align-items: baseline
+            display: flex
+            justify-content: flex-end
+            flex-wrap: wrap
+            gap: space(5)
+            a + a
+                margin-top: 0
+
         &--without-image:not(.call_to_action--without-text)
             @include in-page-without-sidebar
                 > div
@@ -32,7 +41,18 @@
                 width: 100%
             img
                 object-fit: cover
-    
+
+        .footer-contents &
+            .actions
+                a
+                    --btn-hover-background: #{$electrical-blue}
+                    --btn-hover-border: 1px solid #{$electrical-blue}
+                a:first-child
+                    --btn-color: var(--color-background)
+                    --btn-background: var(--color-text)
+                    &:not(:hover, :focus)
+                        border: 1px solid var(--color-background)
+
         @include in-page-without-sidebar
             .call_to_action--with-image
                 > div
