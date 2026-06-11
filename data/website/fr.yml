@@ -2,8 +2,38 @@ about:
   label: Enssat
 default:
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: call_to_action
+
+
+    ranks:
+      base: 2
+    html_class: "block-class-image-as-background"
+    top:
+      active: true
+      description: >-
+        <p>On vous attend !</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>On vous attend !</p>
+
+      buttons:
+        - 
+          title: >-
+            Découvrir l'école
+
+          target_blank: false
+        - 
+          title: >-
+            Candidater
+          url: >-
+            /integrer-l-ecole/
+          target_blank: false
+
+
 
