@@ -19,10 +19,6 @@
         .pages
             @include grid(2)
 
-    @include media-breakpoint-down(desktop)
-        &:first-child
-            margin-top: calc(-1 * #{$spacing-4}) !important
-
 .block-pages.block-pages--list
     .pages
         li + li

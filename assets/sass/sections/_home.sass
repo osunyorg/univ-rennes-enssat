@@ -31,6 +31,7 @@
         // logo under text
         .hero-logo
             position: relative
+            z-index: 2
 
         @include media-breakpoint-down(xxl)
             .hero-image
@@ -38,6 +39,8 @@
                 margin-right: 0
                 picture, img
                     width: 100%
+            .hero-logo
+                padding-bottom: var(--grid-gutter)
 
         @include media-breakpoint-up(desktop)
             min-height: pxToRem(610)
