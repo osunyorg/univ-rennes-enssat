@@ -25,3 +25,14 @@
 .rich-text
     a
         @include link($electrical-blue)
+
+// h4 instead of lead in large layout
+.block
+    &[class*="--large"]
+        @include in-page-without-sidebar
+            .post,
+            .event,
+            .page
+                [class*="-title"],
+                [class*="-subtitle"]
+                    @include h4
