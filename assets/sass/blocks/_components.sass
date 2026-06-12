@@ -1,14 +1,27 @@
+// figcaption with border
+@mixin figcaption-with-border
+    border-left: 1px solid var(--color-text-alt)
+    margin-top: 0
+    padding-top: space(5)
+    padding-left: $spacing-2
+    @include media-breakpoint-down(desktop)
+        padding-top: $spacing-1
+
 .block-gallery figure figcaption,
 .block-image figure figcaption,
 .block-video .video + p
     @include meta
     color: var(--color-text-alt)
-    @include media-breakpoint-up(desktop)
-        border-left: 1px solid var(--color-text-alt)
-        margin-top: 0
-        padding-top: space(5)
-        padding-left: $spacing-2
 
+.block-gallery figure figcaption
+    @include figcaption-with-border
+
+.block-image figure figcaption,
+.block-video .video + p
+    @include media-breakpoint-up(desktop)
+        @include figcaption-with-border
+
+// links color in blocks
 .rich-text
     a
         @include link($electrical-blue)
