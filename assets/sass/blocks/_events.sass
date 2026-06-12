@@ -5,9 +5,15 @@
                 content: '-'
 
     &--list
+        @include media-breakpoint-up(desktop)
+            .events
+                > li:where(:not(:last-child))
+                    margin-bottom: space(10)
+                    padding-bottom: space(10)
+
         @include in-page-without-sidebar
             .event
-                min-height: pxToRem(95)
+                min-height: pxToRem(95) // to avoid schedule overlap on next item
                 .event-dates
                     @include h4
                 .event-schedule
