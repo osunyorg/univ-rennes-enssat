@@ -6,11 +6,13 @@
         .actions
             align-items: baseline
             display: flex
-            justify-content: flex-end
             flex-wrap: wrap
             gap: space(5)
             a + a
                 margin-top: 0
+            
+            @include in-page-without-sidebar
+                justify-content: flex-end
 
         &--without-image:not(.call_to_action--without-text)
             @include in-page-without-sidebar

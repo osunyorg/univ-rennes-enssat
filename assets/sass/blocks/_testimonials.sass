@@ -1,4 +1,10 @@
 .block-testimonials
+    &--carousel
+        @include media-breakpoint-up(desktop)
+            .slider-slide
+                figcaption
+                    margin-top: $spacing-5
+
     &--large
         .testimonial
             border-bottom: 1px solid var(--color-text)
