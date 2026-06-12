@@ -21,11 +21,12 @@
             @include grid(2)
 
 .block-pages.block-pages--list
-    .pages
-        li + li
-            border-top: 1px solid var(--color-border)
-            margin-top: var(--grid-gutter)
-            padding-top: var(--grid-gutter)
+    &:not(.with-description)
+        .pages
+            li + li
+                border-top: 1px solid var(--color-border)
+                margin-top: var(--grid-gutter)
+                padding-top: var(--grid-gutter)
 
     @include in-page-without-sidebar
         // display all items under each other instead of grid (ex: 'intégrer l'école')
@@ -83,3 +84,9 @@
         &:hover
             .more::after
                 transform: translateX(50%)
+
+.block-pages.with-description
+    @include in-page-without-sidebar
+        .top
+            .description p
+                @include lead
