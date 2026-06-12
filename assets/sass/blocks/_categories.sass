@@ -1,0 +1,8 @@
+.block-categories
+    &--grid,
+    &--list
+        .categories
+            > li
+                @include in-page-with-or-without-sidebar
+                    [class$="-title"]
+                        @include h3

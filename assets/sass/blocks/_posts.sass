@@ -12,3 +12,10 @@
                 padding-bottom: space(10)
                 + li
                     margin-top: space(10)
+
+    &--carousel
+        @include in-page-with-or-without-sidebar
+            .post
+                .post-title,
+                .post-subtitle
+                    @include h3
