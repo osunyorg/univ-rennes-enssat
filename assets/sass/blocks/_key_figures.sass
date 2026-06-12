@@ -9,3 +9,14 @@
                 .key-figure-text
                     display: flex
                     gap: space(6)
+
+    @include in-page-with-or-without-sidebar
+        ul,
+        ul.odd-items,
+        ul.even-items
+            @include grid(2)
+    @include in-page-with-sidebar
+        ul
+            .key-figure-text
+                span
+                    @include h4
