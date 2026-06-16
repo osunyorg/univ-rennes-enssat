@@ -9,9 +9,20 @@
 
         // special menu for 'vous êtes'
         @include media-breakpoint-up(desktop)
+            .has-children
+                .dropdown-menu.is-titled
+                    .dropdown-menu-heading
+                        width: columns(4)
+                    .nav-level-2
+                        width: columns(8)
+
             .nav-level-3 
                 li:first-child
                     margin-top: 0
+
+            .menu-class-programs
+                .nav-level-2 
+                    columns: 2
 
             .menu-class-integration
                 position: relative
