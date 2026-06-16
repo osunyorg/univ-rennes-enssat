@@ -191,6 +191,7 @@ items:
   - "/formations/photonique/"
   - "/formations/post-bac-cybersecurite/"
   - "/formations/post-bac-physique-et-photonique/"
+  html_class: menu-class-programs
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: International
