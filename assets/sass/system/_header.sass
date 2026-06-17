@@ -1,4 +1,4 @@
-#document-header
+header#document-header
     .menu
         .nav-level-1
             .dropdown-menu-title
@@ -72,6 +72,20 @@
                         width: unset
                         li a
                             @include meta
+
+        // mobile version of 'vous êtes'
+        @include media-breakpoint-down(desktop)
+            .nav-level-1 > li:nth-last-child(3)
+                border-bottom: 0
+            .menu-class-integration
+                border-bottom: none
+                > span
+                    background: $electrical-blue
+                    color: var(--color-background) !important
+                    justify-content: center
+                    border-radius: var(--btn-border-radius)
+                .dropdown-menu
+                    margin-top: $spacing-3
 
     html.has-menu-sticky:not(.is-scrolling-down) &
         @include media-breakpoint-up(desktop)
