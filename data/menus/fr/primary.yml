@@ -9,55 +9,55 @@ items:
   children:
   - title: Qui sommes-nous ?
     slug: qui-sommes-nous
-    target: "/equipe/qui-sommes-nous/"
+    target: "/l-ecole/qui-sommes-nous/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/equipe/qui-sommes-nous"
-    file: content/fr/pages/equipe/qui-sommes-nous/_index.html
+    path: "/pages/l-ecole/qui-sommes-nous"
+    file: content/fr/pages/l-ecole/qui-sommes-nous/_index.html
   - title: Choisir l'ENSSAT
     slug: choisir-l-enssat
-    target: "/equipe/choisir-lenssat/"
+    target: "/l-ecole/choisir-lenssat/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/equipe/choisir-lenssat"
-    file: content/fr/pages/equipe/choisir-lenssat/_index.html
+    path: "/pages/l-ecole/choisir-lenssat"
+    file: content/fr/pages/l-ecole/choisir-lenssat/_index.html
   - title: Gouvernance
     slug: gouvernance
-    target: "/equipe/gouvernance/"
+    target: "/l-ecole/gouvernance/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/equipe/gouvernance"
-    file: content/fr/pages/equipe/gouvernance/_index.html
+    path: "/pages/l-ecole/gouvernance"
+    file: content/fr/pages/l-ecole/gouvernance/_index.html
   - title: Engagements et certifications
     slug: engagements-et-certifications
-    target: "/equipe/engagements-et-certifications/"
+    target: "/l-ecole/engagements-et-certifications/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/equipe/engagements-et-certifications"
-    file: content/fr/pages/equipe/engagements-et-certifications/_index.html
+    path: "/pages/l-ecole/engagements-et-certifications"
+    file: content/fr/pages/l-ecole/engagements-et-certifications/_index.html
   - title: L'ENSSAT recrute
     slug: l-enssat-recrute
-    target: "/equipe/lenssat-recrute/"
+    target: "/l-ecole/lenssat-recrute/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/equipe/lenssat-recrute"
-    file: content/fr/pages/equipe/lenssat-recrute/_index.html
+    path: "/pages/l-ecole/lenssat-recrute"
+    file: content/fr/pages/l-ecole/lenssat-recrute/_index.html
   descendants_targets:
-  - "/equipe/choisir-lenssat/"
-  - "/equipe/engagements-et-certifications/"
-  - "/equipe/gouvernance/"
-  - "/equipe/lenssat-recrute/"
-  - "/equipe/qui-sommes-nous/"
+  - "/l-ecole/choisir-lenssat/"
+  - "/l-ecole/engagements-et-certifications/"
+  - "/l-ecole/gouvernance/"
+  - "/l-ecole/lenssat-recrute/"
+  - "/l-ecole/qui-sommes-nous/"
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Formations

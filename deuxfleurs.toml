@@ -19,6 +19,10 @@ from = "/formations/projets/index.html"
 to = "/projets/"
 
 [[redirects]]
+from = "/equipe/engagements-et-certifications/index.html"
+to = "/l-ecole/engagements-et-certifications/"
+
+[[redirects]]
 from = "/integrer-l-ecole/aspirant-apprenti/index.html"
 to = "/integrer-l-ecole/aspirant-e-apprenti-e/"
 
@@ -45,6 +49,18 @@ to = "/integrer-l-ecole/bachelier-e-s/"
 [[redirects]]
 from = "/diplome-e-bac-2-ou-3/index.html"
 to = "/integrer-l-ecole/diplome-e-bac-2-ou-3/"
+
+[[redirects]]
+from = "/equipe/qui-sommes-nous/index.html"
+to = "/l-ecole/qui-sommes-nous/"
+
+[[redirects]]
+from = "/equipe/choisir-lenssat/index.html"
+to = "/l-ecole/choisir-lenssat/"
+
+[[redirects]]
+from = "/equipe/gouvernance/index.html"
+to = "/l-ecole/gouvernance/"
 
 [[redirects]]
 from = "/vous-etes/candidat-cpge/index.html"
@@ -101,6 +117,10 @@ to = "/archives/campus/"
 [[redirects]]
 from = "/enssat/index.html"
 to = "/ecoles/enssat/"
+
+[[redirects]]
+from = "/equipe/lenssat-recrute/index.html"
+to = "/l-ecole/lenssat-recrute/"
 
 [[redirects]]
 from = "/equipe/equipe-pedagogique/index.html"
