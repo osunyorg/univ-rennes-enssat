@@ -11,7 +11,7 @@ params:
 
   i18n:
     positions:
-      - additionnal-footer #custom
+      - primary
 
   menu:
     primary:

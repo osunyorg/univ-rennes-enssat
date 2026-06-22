@@ -9,6 +9,16 @@ header#document-header
 
         // special menu for 'vous êtes'
         @include media-breakpoint-up(desktop)
+            .nav-search
+                margin-left: $spacing-1
+                margin-right: $spacing-1
+
+            .i18n-dropdown
+                span
+                    @include icon(arrow-down-s-line, after)
+                    &[aria-expanded="true"]::after
+                        transform: rotate(180deg) !important
+
             .has-children:not(.menu-class-integration)
                 .dropdown-menu.is-titled
                     .dropdown-menu-heading
