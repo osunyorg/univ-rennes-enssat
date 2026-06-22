@@ -19,7 +19,7 @@ items:
   descendants_targets: []
 - title: Actualités
   slug: actualites
-  target: "/actualites/"
+  target: "/fr/actualites/"
   kind: page
   new_tab: false
   children: []
@@ -28,7 +28,7 @@ items:
   file: content/fr/posts/_index.html
 - title: Événements
   slug: evenements
-  target: "/agenda/"
+  target: "/fr/agenda/"
   kind: page
   new_tab: false
   children: []
@@ -37,7 +37,7 @@ items:
   file: content/fr/events/_index.html
 - title: Contact
   slug: contact
-  target: "/contact/"
+  target: "/fr/contact/"
   kind: page
   new_tab: false
   children: []

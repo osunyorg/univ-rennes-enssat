@@ -3,13 +3,13 @@ title: Menu principal
 items:
 - title: L'école
   slug: l-ecole
-  target: "/equipe/"
+  target: "/fr/l-ecole/"
   kind: page
   new_tab: false
   children:
   - title: Qui sommes-nous ?
     slug: qui-sommes-nous
-    target: "/l-ecole/qui-sommes-nous/"
+    target: "/fr/l-ecole/qui-sommes-nous/"
     kind: page
     new_tab: false
     children: []
@@ -18,7 +18,7 @@ items:
     file: content/fr/pages/l-ecole/qui-sommes-nous/_index.html
   - title: Choisir l'ENSSAT
     slug: choisir-l-enssat
-    target: "/l-ecole/choisir-lenssat/"
+    target: "/fr/l-ecole/choisir-lenssat/"
     kind: page
     new_tab: false
     children: []
@@ -27,7 +27,7 @@ items:
     file: content/fr/pages/l-ecole/choisir-lenssat/_index.html
   - title: Gouvernance
     slug: gouvernance
-    target: "/l-ecole/gouvernance/"
+    target: "/fr/l-ecole/gouvernance/"
     kind: page
     new_tab: false
     children: []
@@ -36,7 +36,7 @@ items:
     file: content/fr/pages/l-ecole/gouvernance/_index.html
   - title: Engagements et certifications
     slug: engagements-et-certifications
-    target: "/l-ecole/engagements-et-certifications/"
+    target: "/fr/l-ecole/engagements-et-certifications/"
     kind: page
     new_tab: false
     children: []
@@ -45,7 +45,7 @@ items:
     file: content/fr/pages/l-ecole/engagements-et-certifications/_index.html
   - title: L'ENSSAT recrute
     slug: l-enssat-recrute
-    target: "/l-ecole/lenssat-recrute/"
+    target: "/fr/l-ecole/lenssat-recrute/"
     kind: page
     new_tab: false
     children: []
@@ -53,28 +53,28 @@ items:
     path: "/pages/l-ecole/lenssat-recrute"
     file: content/fr/pages/l-ecole/lenssat-recrute/_index.html
   descendants_targets:
-  - "/l-ecole/choisir-lenssat/"
-  - "/l-ecole/engagements-et-certifications/"
-  - "/l-ecole/gouvernance/"
-  - "/l-ecole/lenssat-recrute/"
-  - "/l-ecole/qui-sommes-nous/"
-  path: "/persons"
-  file: content/fr/persons/_index.html
+  - "/fr/l-ecole/choisir-lenssat/"
+  - "/fr/l-ecole/engagements-et-certifications/"
+  - "/fr/l-ecole/gouvernance/"
+  - "/fr/l-ecole/lenssat-recrute/"
+  - "/fr/l-ecole/qui-sommes-nous/"
+  path: "/pages/l-ecole"
+  file: content/fr/pages/l-ecole/_index.html
 - title: Formations
   slug: formations
-  target: "/formations/"
+  target: "/fr/formations/"
   kind: page
   new_tab: false
   children:
   - title: Informatique
     slug: informatique
-    target: "/formations/informatique/"
+    target: "/fr/formations/informatique/"
     kind: page
     new_tab: false
     children:
     - title: Ingénieur·e Informatique
       slug: ingenieur-e-informatique
-      target: "/formations/ingenieure-informatique/"
+      target: "/fr/formations/ingenieure-informatique/"
       kind: program
       new_tab: false
       children: []
@@ -83,7 +83,7 @@ items:
       file: content/fr/programs/ingenieure-informatique/_index.html
     - title: Apprenti·e Ingénieur·e Informatique
       slug: apprenti-e-ingenieur-e-informatique
-      target: "/formations/apprentie-ingenieure-informatique/"
+      target: "/fr/formations/apprentie-ingenieure-informatique/"
       kind: program
       new_tab: false
       children: []
@@ -91,19 +91,19 @@ items:
       path: "/programs/apprentie-ingenieure-informatique"
       file: content/fr/programs/apprentie-ingenieure-informatique/_index.html
     descendants_targets:
-    - "/formations/apprentie-ingenieure-informatique/"
-    - "/formations/ingenieure-informatique/"
+    - "/fr/formations/apprentie-ingenieure-informatique/"
+    - "/fr/formations/ingenieure-informatique/"
     path: "/pages/formations/informatique"
     file: content/fr/pages/formations/informatique/_index.html
   - title: Photonique
     slug: photonique
-    target: "/formations/photonique/"
+    target: "/fr/formations/photonique/"
     kind: page
     new_tab: false
     children:
     - title: Ingénieur·e Photonique
       slug: ingenieur-e-photonique
-      target: "/formations/ingenieure-photonique/"
+      target: "/fr/formations/ingenieure-photonique/"
       kind: program
       new_tab: false
       children: []
@@ -112,7 +112,7 @@ items:
       file: content/fr/programs/ingenieure-photonique/_index.html
     - title: Apprenti·e Ingénieur·e Photonique
       slug: apprenti-e-ingenieur-e-photonique
-      target: "/formations/apprentie-ingenieure-photonique/"
+      target: "/fr/formations/apprentie-ingenieure-photonique/"
       kind: program
       new_tab: false
       children: []
@@ -120,13 +120,13 @@ items:
       path: "/programs/apprentie-ingenieure-photonique"
       file: content/fr/programs/apprentie-ingenieure-photonique/_index.html
     descendants_targets:
-    - "/formations/apprentie-ingenieure-photonique/"
-    - "/formations/ingenieure-photonique/"
+    - "/fr/formations/apprentie-ingenieure-photonique/"
+    - "/fr/formations/ingenieure-photonique/"
     path: "/pages/formations/photonique"
     file: content/fr/pages/formations/photonique/_index.html
   - title: Post bac physique et photonique
     slug: post-bac-physique-et-photonique
-    target: "/formations/post-bac-physique-et-photonique/"
+    target: "/fr/formations/post-bac-physique-et-photonique/"
     kind: page
     new_tab: false
     children: []
@@ -135,7 +135,7 @@ items:
     file: content/fr/pages/formations/post-bac-physique-et-photonique/_index.html
   - title: Post bac cybersécurité
     slug: post-bac-cybersecurite
-    target: "/formations/post-bac-cybersecurite/"
+    target: "/fr/formations/post-bac-cybersecurite/"
     kind: page
     new_tab: false
     children: []
@@ -144,7 +144,7 @@ items:
     file: content/fr/pages/formations/post-bac-cybersecurite/_index.html
   - title: Continuum CPGE
     slug: continuum-cpge
-    target: "/formations/continuum-cpge/"
+    target: "/fr/formations/continuum-cpge/"
     kind: page
     new_tab: false
     children: []
@@ -153,7 +153,7 @@ items:
     file: content/fr/pages/formations/continuum-cpge/_index.html
   - title: Masters & doctorats
     slug: masters-doctorats
-    target: "/formations/masters-doctorats/"
+    target: "/fr/formations/masters-doctorats/"
     kind: page
     new_tab: false
     children: []
@@ -162,7 +162,7 @@ items:
     file: content/fr/pages/formations/masters-doctorats/_index.html
   - title: Formation à distance
     slug: formation-a-distance
-    target: "/formations/formation-a-distance/"
+    target: "/fr/formations/formation-a-distance/"
     kind: page
     new_tab: false
     children: []
@@ -171,7 +171,7 @@ items:
     file: content/fr/pages/formations/formation-a-distance/_index.html
   - title: Formation continue
     slug: formation-continue
-    target: "/formations/formation-continue/"
+    target: "/fr/formations/formation-continue/"
     kind: page
     new_tab: false
     children: []
@@ -179,30 +179,30 @@ items:
     path: "/pages/formations/formation-continue"
     file: content/fr/pages/formations/formation-continue/_index.html
   descendants_targets:
-  - "/formations/apprentie-ingenieure-informatique/"
-  - "/formations/apprentie-ingenieure-photonique/"
-  - "/formations/continuum-cpge/"
-  - "/formations/formation-a-distance/"
-  - "/formations/formation-continue/"
-  - "/formations/informatique/"
-  - "/formations/ingenieure-informatique/"
-  - "/formations/ingenieure-photonique/"
-  - "/formations/masters-doctorats/"
-  - "/formations/photonique/"
-  - "/formations/post-bac-cybersecurite/"
-  - "/formations/post-bac-physique-et-photonique/"
+  - "/fr/formations/apprentie-ingenieure-informatique/"
+  - "/fr/formations/apprentie-ingenieure-photonique/"
+  - "/fr/formations/continuum-cpge/"
+  - "/fr/formations/formation-a-distance/"
+  - "/fr/formations/formation-continue/"
+  - "/fr/formations/informatique/"
+  - "/fr/formations/ingenieure-informatique/"
+  - "/fr/formations/ingenieure-photonique/"
+  - "/fr/formations/masters-doctorats/"
+  - "/fr/formations/photonique/"
+  - "/fr/formations/post-bac-cybersecurite/"
+  - "/fr/formations/post-bac-physique-et-photonique/"
   html_class: menu-class-programs
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: International
   slug: international
-  target: "/international/"
+  target: "/fr/international/"
   kind: page
   new_tab: false
   children:
   - title: Venir se former depuis l'international
     slug: venir-se-former-depuis-l-international
-    target: "/international/venir-se-former-depuis-linternational/"
+    target: "/fr/international/venir-se-former-depuis-linternational/"
     kind: page
     new_tab: false
     children: []
@@ -211,7 +211,7 @@ items:
     file: content/fr/pages/international/venir-se-former-depuis-linternational/_index.html
   - title: Acceuil des étudiants étrangers
     slug: acceuil-des-etudiants-etrangers
-    target: "/international/acceuil-des-etudiants-etrangers/"
+    target: "/fr/international/acceuil-des-etudiants-etrangers/"
     kind: page
     new_tab: false
     children: []
@@ -227,7 +227,7 @@ items:
     descendants_targets: []
   - title: Opportunités de mobilité
     slug: opportunites-de-mobilite
-    target: "/international/opportunites-de-mobilite/"
+    target: "/fr/international/opportunites-de-mobilite/"
     kind: page
     new_tab: false
     children: []
@@ -236,20 +236,20 @@ items:
     file: content/fr/pages/international/opportunites-de-mobilite/_index.html
   descendants_targets:
   - ''
-  - "/international/acceuil-des-etudiants-etrangers/"
-  - "/international/opportunites-de-mobilite/"
-  - "/international/venir-se-former-depuis-linternational/"
+  - "/fr/international/acceuil-des-etudiants-etrangers/"
+  - "/fr/international/opportunites-de-mobilite/"
+  - "/fr/international/venir-se-former-depuis-linternational/"
   path: "/pages/international"
   file: content/fr/pages/international/_index.html
 - title: Vie étudiante
   slug: vie-etudiante
-  target: "/vie-etudiante/"
+  target: "/fr/vie-etudiante/"
   kind: page
   new_tab: false
   children:
   - title: Découvrir le campus
     slug: decouvrir-le-campus
-    target: "/vie-etudiante/decouvrir-le-campus/"
+    target: "/fr/vie-etudiante/decouvrir-le-campus/"
     kind: page
     new_tab: false
     children: []
@@ -258,7 +258,7 @@ items:
     file: content/fr/pages/vie-etudiante/decouvrir-le-campus/_index.html
   - title: Vie associative
     slug: vie-associative
-    target: "/vie-etudiante/vie-associative/"
+    target: "/fr/vie-etudiante/vie-associative/"
     kind: page
     new_tab: false
     children: []
@@ -267,7 +267,7 @@ items:
     file: content/fr/pages/vie-etudiante/vie-associative/_index.html
   - title: Culture et loisirs
     slug: culture-et-loisirs
-    target: "/vie-etudiante/culture-et-loisirs/"
+    target: "/fr/vie-etudiante/culture-et-loisirs/"
     kind: page
     new_tab: false
     children: []
@@ -276,7 +276,7 @@ items:
     file: content/fr/pages/vie-etudiante/culture-et-loisirs/_index.html
   - title: Se restaurer
     slug: se-restaurer
-    target: "/vie-etudiante/se-restaurer/"
+    target: "/fr/vie-etudiante/se-restaurer/"
     kind: page
     new_tab: false
     children: []
@@ -285,7 +285,7 @@ items:
     file: content/fr/pages/vie-etudiante/se-restaurer/_index.html
   - title: Se loger
     slug: se-loger
-    target: "/vie-etudiante/se-loger/"
+    target: "/fr/vie-etudiante/se-loger/"
     kind: page
     new_tab: false
     children: []
@@ -293,22 +293,22 @@ items:
     path: "/pages/vie-etudiante/se-loger"
     file: content/fr/pages/vie-etudiante/se-loger/_index.html
   descendants_targets:
-  - "/vie-etudiante/culture-et-loisirs/"
-  - "/vie-etudiante/decouvrir-le-campus/"
-  - "/vie-etudiante/se-loger/"
-  - "/vie-etudiante/se-restaurer/"
-  - "/vie-etudiante/vie-associative/"
+  - "/fr/vie-etudiante/culture-et-loisirs/"
+  - "/fr/vie-etudiante/decouvrir-le-campus/"
+  - "/fr/vie-etudiante/se-loger/"
+  - "/fr/vie-etudiante/se-restaurer/"
+  - "/fr/vie-etudiante/vie-associative/"
   path: "/pages/vie-etudiante"
   file: content/fr/pages/vie-etudiante/_index.html
 - title: Entreprises
   slug: entreprises
-  target: "/relations-entreprises/"
+  target: "/fr/relations-entreprises/"
   kind: page
   new_tab: false
   children:
   - title: Devenir partenaire
     slug: devenir-partenaire
-    target: "/relations-entreprises/devenir-partenaire/"
+    target: "/fr/relations-entreprises/devenir-partenaire/"
     kind: page
     new_tab: false
     children: []
@@ -317,7 +317,7 @@ items:
     file: content/fr/pages/relations-entreprises/devenir-partenaire/_index.html
   - title: Taxe d'apprentissage
     slug: taxe-d-apprentissage
-    target: "/relations-entreprises/taxe-dapprentissage/"
+    target: "/fr/relations-entreprises/taxe-dapprentissage/"
     kind: page
     new_tab: false
     children: []
@@ -326,7 +326,7 @@ items:
     file: content/fr/pages/relations-entreprises/taxe-dapprentissage/_index.html
   - title: Recrutez en stage ou en alternance
     slug: recrutez-en-stage-ou-en-alternance
-    target: "/relations-entreprises/recrutez-en-stage-ou-en-alternance/"
+    target: "/fr/relations-entreprises/recrutez-en-stage-ou-en-alternance/"
     kind: page
     new_tab: false
     children: []
@@ -335,7 +335,7 @@ items:
     file: content/fr/pages/relations-entreprises/recrutez-en-stage-ou-en-alternance/_index.html
   - title: Location de ressources
     slug: location-de-ressources
-    target: "/relations-entreprises/location-de-ressources/"
+    target: "/fr/relations-entreprises/location-de-ressources/"
     kind: page
     new_tab: false
     children: []
@@ -343,10 +343,10 @@ items:
     path: "/pages/relations-entreprises/location-de-ressources"
     file: content/fr/pages/relations-entreprises/location-de-ressources/_index.html
   descendants_targets:
-  - "/relations-entreprises/devenir-partenaire/"
-  - "/relations-entreprises/location-de-ressources/"
-  - "/relations-entreprises/recrutez-en-stage-ou-en-alternance/"
-  - "/relations-entreprises/taxe-dapprentissage/"
+  - "/fr/relations-entreprises/devenir-partenaire/"
+  - "/fr/relations-entreprises/location-de-ressources/"
+  - "/fr/relations-entreprises/recrutez-en-stage-ou-en-alternance/"
+  - "/fr/relations-entreprises/taxe-dapprentissage/"
   path: "/pages/relations-entreprises"
   file: content/fr/pages/relations-entreprises/_index.html
 - title: Vous êtes
@@ -357,7 +357,7 @@ items:
   children:
   - title: Candidat·e CPGE
     slug: candidat-e-cpge
-    target: "/integrer-l-ecole/candidat-e-cpge/"
+    target: "/fr/integrer-l-ecole/candidat-e-cpge/"
     kind: page
     new_tab: false
     children: []
@@ -366,7 +366,7 @@ items:
     file: content/fr/pages/integrer-l-ecole/candidat-e-cpge/_index.html
   - title: Diplomé·e Bac +2 ou +3
     slug: diplome-e-bac-2-ou-3
-    target: "/integrer-l-ecole/diplome-e-bac-2-ou-3/"
+    target: "/fr/integrer-l-ecole/diplome-e-bac-2-ou-3/"
     kind: page
     new_tab: false
     children: []
@@ -375,7 +375,7 @@ items:
     file: content/fr/pages/integrer-l-ecole/diplome-e-bac-2-ou-3/_index.html
   - title: Bachelier·es
     slug: bachelier-es
-    target: "/integrer-l-ecole/bachelier-e-s/"
+    target: "/fr/integrer-l-ecole/bachelier-e-s/"
     kind: page
     new_tab: false
     children: []
@@ -384,7 +384,7 @@ items:
     file: content/fr/pages/integrer-l-ecole/bachelier-e-s/_index.html
   - title: Aspirant·e Apprenti·e
     slug: aspirant-e-apprenti-e
-    target: "/integrer-l-ecole/aspirant-e-apprenti-e/"
+    target: "/fr/integrer-l-ecole/aspirant-e-apprenti-e/"
     kind: page
     new_tab: false
     children: []
@@ -393,7 +393,7 @@ items:
     file: content/fr/pages/integrer-l-ecole/aspirant-e-apprenti-e/_index.html
   - title: Chercheur·euse
     slug: chercheur-euse
-    target: "/integrer-l-ecole/chercheur-euse/"
+    target: "/fr/integrer-l-ecole/chercheur-euse/"
     kind: page
     new_tab: false
     children: []
@@ -401,10 +401,10 @@ items:
     path: "/pages/integrer-l-ecole/chercheur-euse"
     file: content/fr/pages/integrer-l-ecole/chercheur-euse/_index.html
   descendants_targets:
-  - "/integrer-l-ecole/aspirant-e-apprenti-e/"
-  - "/integrer-l-ecole/bachelier-e-s/"
-  - "/integrer-l-ecole/candidat-e-cpge/"
-  - "/integrer-l-ecole/chercheur-euse/"
-  - "/integrer-l-ecole/diplome-e-bac-2-ou-3/"
+  - "/fr/integrer-l-ecole/aspirant-e-apprenti-e/"
+  - "/fr/integrer-l-ecole/bachelier-e-s/"
+  - "/fr/integrer-l-ecole/candidat-e-cpge/"
+  - "/fr/integrer-l-ecole/chercheur-euse/"
+  - "/fr/integrer-l-ecole/diplome-e-bac-2-ou-3/"
   html_class: menu-class-integration
 
