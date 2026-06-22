@@ -9,7 +9,7 @@ breadcrumb_title: >-
 url: "/contact/"
 slug: "contact"
 date: 2026-06-12T10:22:29+02:00
-lastmod: 2026-06-12T10:22:29+02:00
+lastmod: 2026-06-22T12:05:11+02:00
 meta:
   hugo:
     permalink: "/contact/"
@@ -18,7 +18,7 @@ meta:
     slug: "contact"
   dates:
     created_at: 2026-06-12T10:22:29+02:00
-    updated_at: 2026-06-12T10:22:29+02:00
+    updated_at: 2026-06-22T12:05:11+02:00
     published_at: 2026-06-12T10:22:29+02:00
 search:
   id: "5fd19004-bf53-4949-822d-eefa2c2643f7"
@@ -29,7 +29,8 @@ search:
   title: >-
     Contact
 
-
+  body: >-
+    <p>Accueil  <br>École Nationale Supérieure des Sciences Appliquées et de Technologie <br>6 rue de Kerampont</p>  <p>22305 <br>Lannion <br>France</p>  <p>Lundi, mardi, mercredi, jeudi et vendredi</p>  <p>En période de congés universitaires</p>
 
 breadcrumbs:
   - title: >-
@@ -58,9 +59,81 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 8
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: contact
+    title: >-
+      Accueil
+    slug: >-
+      accueil
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Accueil
+        heading: 2
+
+    data:
+
+      name: >-
+        École Nationale Supérieure des Sciences Appliquées et de Technologie
+
+      contact_details:
+        postal_address:
+          data:
+
+            address: >-
+              6 rue de Kerampont
+
+            zipcode: >-
+              22305
+            city: >-
+              Lannion
+            country:
+              name: >-
+                France
+              alpha2: >-
+                FR
+              alpha3: >-
+                FRA
+          text: >-
+            6 rue de Kerampont 22305 Lannion FRANCE
+          html: >-
+            <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">6 rue de Kerampont</span> <span itemprop="postalCode">22305</span> <span itemprop="addressLocality">Lannion</span> <span itemprop="addressCountry">FRANCE</span></address>
+        emails:
+          list:
+            - label: >-
+                contact@enssat.fr
+              value: >-
+                mailto:contact@enssat.fr
+
+      timetable:
+        - 
+          title: >-
+            Lundi, mardi, mercredi, jeudi et vendredi
+          time_slot_morning:
+            from: "08:00"
+            to: "12:00"
+          time_slot_afternoon:
+            from: "13:30"
+            to: "17:00"
+        - 
+          title: >-
+            En période de congés universitaires
+          time_slot_morning:
+            from: "08:30"
+            to: "12:00"
+          time_slot_afternoon:
+            from: "13:30"
+            to: "16:30"
+
+
 
 ---
