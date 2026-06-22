@@ -53,7 +53,7 @@
                 hgroup
                     width: offset(7)
 
-    .block-pages.block-pages--cards
+    .block-pages.block-pages--cards:not(.block-class-expertise)
         @include media-breakpoint-up(desktop)
             .pages.pages--cards
                 @include grid(4)
@@ -80,21 +80,8 @@
                 position: absolute
                 width: 100%
                 z-index: 2
-                .more
-                    justify-content: flex-start
-                    margin-top: 0
-                    padding-top: $spacing-2
-                    text-decoration: none
-                    &::after
-                        font-size: inherit
-                        opacity: 1
-                        position: relative
-                        transform: none
             .media
                 margin: 0
                 img
                     aspect-ratio: 320/450
                     object-fit: cover
-            &:hover
-                .more::after
-                    transform: translateX(50%)

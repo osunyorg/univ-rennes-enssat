@@ -1,27 +1,41 @@
 .block-pages.block-class-expertise
     &:first-child
         background: var(--color-text)
-        color: var(--color-background)
         margin-top: 0 !important
         margin-bottom: 0 !important
         padding-top: var(--grid-gutter)
         padding-bottom: var(--grid-gutter)
+        .page
+            &, &:hover
+                color: var(--color-background)
     a
-        color: inherit
         @include h2
+    a, p
+        color: inherit !important
     .page
-        a
-            &::after
-                opacity: 0
-            &:hover::after
-                opacity: 1
+        background: transparent
+        padding: 0
+        &, &:hover
+            color: var(--color-text)
         .page-description
             @include h5
             margin-top: space(5)
+        .more
+            padding-top: space(5) !important
+        .media
+            margin-left: 0
+            margin-right: 0
+        &:hover
+            background: transparent
+
+    @include media-breakpoint-down(desktop)
+        .pages
+            > li + li
+                margin-top: $spacing-4
 
     @include media-breakpoint-up(desktop)
         .pages
-            @include grid(2)
+            grid-template-columns: repeat(2, 1fr) !important
 
 .block-pages.block-pages--list
     &:not(.with-description, .with-title-only)
@@ -52,6 +66,24 @@
     .page
         .page-categories
             --color-accent: var(--color-background)
+
+        .more
+            justify-content: flex-start
+            margin-top: 0
+            padding-top: $spacing-2
+            text-decoration: none
+            &::after
+                font-size: inherit
+                opacity: 1
+                position: relative
+                transform: none
+                margin-left: space()
+
+        &:hover
+            .more
+                &::after
+                    transform: translateX(50%)
+                text-decoration: none
 
 .block-pages.with-description
     @include in-page-without-sidebar
