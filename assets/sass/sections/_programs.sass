@@ -102,6 +102,18 @@
                         object-fit: cover
                     picture, img
                         height: 100%
+                    picture
+                        position: relative
+                        &::after
+                            background: var(--color-text)
+                            background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 40%)
+                            bottom: 0
+                            content: ''
+                            height: 100%
+                            left: 0
+                            position: absolute
+                            top: 0
+                            width: 100%
 
             // remove margin
             .hero-logos:empty
@@ -126,6 +138,12 @@
                     width: columns(3)
                     > a, button
                         min-width: columns(2.5) !important
+
+        // section
+        &.page-programs-index
+            .block-programs
+                .block-title
+                    padding-top: space(8)
 
     // hide featured image, displayed in hero
     .featured-image

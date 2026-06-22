@@ -25,6 +25,7 @@
 
     @include media-breakpoint-down(desktop)
         .content
+            align-items: normal
             display: flex
             flex-direction: column
             gap: var(--grid-gutter)
@@ -35,7 +36,7 @@
         figure
             order: 3
 
-    @include media-breakpoint-up(md)
+    @include media-breakpoint-up(desktop)
         &:not(.hero--with-image)
             .content
                 > p

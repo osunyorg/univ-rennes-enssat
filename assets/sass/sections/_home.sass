@@ -18,6 +18,7 @@
                 p
                     @include lead
                     font-weight: $light
+                    margin-top: 0
         .hero-image
             inset: 0
             position: absolute
@@ -54,6 +55,7 @@
                     width: offset(7)
 
     .block-pages.block-pages--cards:not(.block-class-expertise)
+        margin-top: $spacing-4
         @include media-breakpoint-up(desktop)
             .pages.pages--cards
                 @include grid(4)
