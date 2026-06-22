@@ -209,15 +209,15 @@ items:
     descendants_targets: []
     path: "/pages/international/venir-se-former-depuis-linternational"
     file: content/fr/pages/international/venir-se-former-depuis-linternational/_index.html
-  - title: Acceuil des étudiants étrangers
-    slug: acceuil-des-etudiants-etrangers
-    target: "/fr/international/acceuil-des-etudiants-etrangers/"
+  - title: Accueil des étudiants étrangers
+    slug: accueil-des-etudiants-etrangers
+    target: "/fr/international/accueil-des-etudiants-etrangers/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/international/acceuil-des-etudiants-etrangers"
-    file: content/fr/pages/international/acceuil-des-etudiants-etrangers/_index.html
+    path: "/pages/international/accueil-des-etudiants-etrangers"
+    file: content/fr/pages/international/accueil-des-etudiants-etrangers/_index.html
   - title: Summer School
     slug: summer-school
     target: ''
@@ -236,7 +236,7 @@ items:
     file: content/fr/pages/international/opportunites-de-mobilite/_index.html
   descendants_targets:
   - ''
-  - "/fr/international/acceuil-des-etudiants-etrangers/"
+  - "/fr/international/accueil-des-etudiants-etrangers/"
   - "/fr/international/opportunites-de-mobilite/"
   - "/fr/international/venir-se-former-depuis-linternational/"
   path: "/pages/international"
