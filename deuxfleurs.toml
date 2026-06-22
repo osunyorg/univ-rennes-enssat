@@ -16,137 +16,597 @@ Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
 from = "/formations/projets/index.html"
-to = "/projets/"
+to = "/fr/projets/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/ingenieur-e-photonique/index.html"
+to = "/fr/actualites/offre-de-formation/ingenieur-e-photonique/"
 
 [[redirects]]
 from = "/equipe/engagements-et-certifications/index.html"
-to = "/l-ecole/engagements-et-certifications/"
+to = "/fr/l-ecole/engagements-et-certifications/"
+
+[[redirects]]
+from = "/offre-de-formation/index.html"
+to = "/fr/offre-de-formation/"
+
+[[redirects]]
+from = "/projets/index.html"
+to = "/fr/projets/"
+
+[[redirects]]
+from = "/archives/nos-equipes/equipe-pedagogique/index.html"
+to = "/fr/archives/nos-equipes/equipe-pedagogique/"
+
+[[redirects]]
+from = "/agenda/2026/12/index.html"
+to = "/fr/agenda/2026/12/"
+
+[[redirects]]
+from = "/formations/formation-a-distance/index.html"
+to = "/fr/formations/formation-a-distance/"
+
+[[redirects]]
+from = "/agenda/2026/05/index.html"
+to = "/fr/agenda/2026/05/"
+
+[[redirects]]
+from = "/l-ecole/choisir-lenssat/index.html"
+to = "/fr/l-ecole/choisir-lenssat/"
+
+[[redirects]]
+from = "/archives/campus/index.html"
+to = "/fr/archives/campus/"
+
+[[redirects]]
+from = "/relations-entreprises/recrutez-en-stage-ou-en-alternance/index.html"
+to = "/fr/relations-entreprises/recrutez-en-stage-ou-en-alternance/"
+
+[[redirects]]
+from = "/formations/index.html"
+to = "/fr/formations/"
 
 [[redirects]]
 from = "/integrer-l-ecole/aspirant-apprenti/index.html"
-to = "/integrer-l-ecole/aspirant-e-apprenti-e/"
+to = "/fr/integrer-l-ecole/aspirant-e-apprenti-e/"
+
+[[redirects]]
+from = "/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/index.html"
+to = "/fr/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
+
+[[redirects]]
+from = "/integrer-l-ecole/bachelier-e-s/index.html"
+to = "/fr/integrer-l-ecole/bachelier-e-s/"
+
+[[redirects]]
+from = "/vie-etudiante/vie-associative/index.html"
+to = "/fr/vie-etudiante/vie-associative/"
+
+[[redirects]]
+from = "/vie-etudiante/decouvrir-le-campus/index.html"
+to = "/fr/vie-etudiante/decouvrir-le-campus/"
+
+[[redirects]]
+from = "/integrer-l-ecole/index.html"
+to = "/fr/integrer-l-ecole/"
+
+[[redirects]]
+from = "/formations/post-bac-physique-et-photonique/index.html"
+to = "/fr/formations/post-bac-physique-et-photonique/"
 
 [[redirects]]
 from = "/equipe/equipe-administrative/index.html"
-to = "/archives/nos-equipes/equipe-administrative/"
+to = "/fr/archives/nos-equipes/equipe-administrative/"
+
+[[redirects]]
+from = "/equipe/pia-raguet/actualites/index.html"
+to = "/fr/equipe/pia-raguet/actualites/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/apprenti-e-ingenieur-e-photonique/index.html"
+to = "/fr/projets/offre-de-formation/apprenti-e-ingenieur-e-photonique/"
+
+[[redirects]]
+from = "/formations/masters-doctorats/index.html"
+to = "/fr/formations/masters-doctorats/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/index.html"
+to = "/fr/agenda/offre-de-formation/"
+
+[[redirects]]
+from = "/l-ecole/gouvernance/index.html"
+to = "/fr/l-ecole/gouvernance/"
 
 [[redirects]]
 from = "/formations/equipe/index.html"
-to = "/equipe/"
+to = "/fr/equipe/"
+
+[[redirects]]
+from = "/actualites/index.html"
+to = "/fr/actualites/"
+
+[[redirects]]
+from = "/relations-entreprises/index.html"
+to = "/fr/relations-entreprises/"
+
+[[redirects]]
+from = "/formations/apprentie-ingenieure-photonique/index.html"
+to = "/fr/formations/apprentie-ingenieure-photonique/"
+
+[[redirects]]
+from = "/relations-entreprises/taxe-dapprentissage/index.html"
+to = "/fr/relations-entreprises/taxe-dapprentissage/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/index.html"
+to = "/fr/actualites/offre-de-formation/"
+
+[[redirects]]
+from = "/agenda/2026/08/index.html"
+to = "/fr/agenda/2026/08/"
 
 [[redirects]]
 from = "/vous-etes/aspirant-apprenti/index.html"
-to = "/integrer-l-ecole/aspirant-e-apprenti-e/"
+to = "/fr/integrer-l-ecole/aspirant-e-apprenti-e/"
+
+[[redirects]]
+from = "/archives/nos-equipes/equipe-administrative/index.html"
+to = "/fr/archives/nos-equipes/equipe-administrative/"
+
+[[redirects]]
+from = "/ecoles/index.html"
+to = "/fr/ecoles/"
+
+[[redirects]]
+from = "/formations/diplomes/diplome-dingenieure-enssat-specialite-photonique/index.html"
+to = "/fr/formations/diplomes/diplome-dingenieure-enssat-specialite-photonique/"
+
+[[redirects]]
+from = "/offre-de-formation/ingenieur-e-informatique/index.html"
+to = "/fr/offre-de-formation/ingenieur-e-informatique/"
 
 [[redirects]]
 from = "/vous-etes/index.html"
-to = "/integrer-l-ecole/"
+to = "/fr/integrer-l-ecole/"
+
+[[redirects]]
+from = "/vie-etudiante/se-loger/index.html"
+to = "/fr/vie-etudiante/se-loger/"
+
+[[redirects]]
+from = "/l-ecole/index.html"
+to = "/fr/l-ecole/"
+
+[[redirects]]
+from = "/international/venir-se-former-depuis-linternational/index.html"
+to = "/fr/international/venir-se-former-depuis-linternational/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/apprenti-e-ingenieur-e-photonique/index.html"
+to = "/fr/actualites/offre-de-formation/apprenti-e-ingenieur-e-photonique/"
+
+[[redirects]]
+from = "/vie-etudiante/se-restaurer/index.html"
+to = "/fr/vie-etudiante/se-restaurer/"
+
+[[redirects]]
+from = "/alumni/index.html"
+to = "/fr/alumni/"
 
 [[redirects]]
 from = "/vous-etes/bachelier-e-s/index.html"
-to = "/integrer-l-ecole/bachelier-e-s/"
+to = "/fr/integrer-l-ecole/bachelier-e-s/"
+
+[[redirects]]
+from = "/international/index.html"
+to = "/fr/international/"
+
+[[redirects]]
+from = "/politique-de-confidentialite/index.html"
+to = "/fr/politique-de-confidentialite/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/index.html"
+to = "/fr/projets/offre-de-formation/"
+
+[[redirects]]
+from = "/expositions/archives-expositions/index.html"
+to = "/fr/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/vie-etudiante/index.html"
+to = "/fr/vie-etudiante/"
+
+[[redirects]]
+from = "/archives/nos-equipes/equipe-de-recherche/index.html"
+to = "/fr/archives/nos-equipes/equipe-de-recherche/"
+
+[[redirects]]
+from = "/formations/formation-continue/index.html"
+to = "/fr/formations/formation-continue/"
+
+[[redirects]]
+from = "/agenda/2026/03/index.html"
+to = "/fr/agenda/2026/03/"
 
 [[redirects]]
 from = "/diplome-e-bac-2-ou-3/index.html"
-to = "/integrer-l-ecole/diplome-e-bac-2-ou-3/"
+to = "/fr/integrer-l-ecole/diplome-e-bac-2-ou-3/"
 
 [[redirects]]
 from = "/equipe/qui-sommes-nous/index.html"
-to = "/l-ecole/qui-sommes-nous/"
+to = "/fr/l-ecole/qui-sommes-nous/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/apprenti-e-ingenieur-e-informatique/index.html"
+to = "/fr/actualites/offre-de-formation/apprenti-e-ingenieur-e-informatique/"
+
+[[redirects]]
+from = "/formations/ingenieure-informatique/index.html"
+to = "/fr/formations/ingenieure-informatique/"
+
+[[redirects]]
+from = "/organisations/index.html"
+to = "/fr/organisations/"
+
+[[redirects]]
+from = "/actualites/2025-05-19-8e-edition-du-concours-droneload-a-lannion/index.html"
+to = "/fr/actualites/2025-05-19-8e-edition-du-concours-droneload-a-lannion/"
+
+[[redirects]]
+from = "/integrer-l-ecole/aspirant-e-apprenti-e/index.html"
+to = "/fr/integrer-l-ecole/aspirant-e-apprenti-e/"
+
+[[redirects]]
+from = "/agenda/2026/index.html"
+to = "/fr/agenda/2026/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/ingenieur-e-informatique/index.html"
+to = "/fr/agenda/offre-de-formation/ingenieur-e-informatique/"
+
+[[redirects]]
+from = "/agenda/2026/02/index.html"
+to = "/fr/agenda/2026/02/"
+
+[[redirects]]
+from = "/publics/international-student/index.html"
+to = "/fr/publics/international-student/"
+
+[[redirects]]
+from = "/formations/diplomes/index.html"
+to = "/fr/formations/diplomes/"
+
+[[redirects]]
+from = "/contact/index.html"
+to = "/fr/contact/"
 
 [[redirects]]
 from = "/equipe/choisir-lenssat/index.html"
-to = "/l-ecole/choisir-lenssat/"
+to = "/fr/l-ecole/choisir-lenssat/"
+
+[[redirects]]
+from = "/agenda/2026/06/index.html"
+to = "/fr/agenda/2026/06/"
+
+[[redirects]]
+from = "/vie-etudiante/culture-et-loisirs/index.html"
+to = "/fr/vie-etudiante/culture-et-loisirs/"
+
+[[redirects]]
+from = "/formations/apprentie-ingenieure-informatique/index.html"
+to = "/fr/formations/apprentie-ingenieure-informatique/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/index.html"
+to = "/fr/agenda/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/"
+
+[[redirects]]
+from = "/agenda/index.html"
+to = "/fr/agenda/"
 
 [[redirects]]
 from = "/equipe/gouvernance/index.html"
-to = "/l-ecole/gouvernance/"
+to = "/fr/l-ecole/gouvernance/"
+
+[[redirects]]
+from = "/publics/une-entreprise/index.html"
+to = "/fr/publics/une-entreprise/"
+
+[[redirects]]
+from = "/agenda/2025/index.html"
+to = "/fr/agenda/2025/"
+
+[[redirects]]
+from = "/formations/photonique/index.html"
+to = "/fr/formations/photonique/"
+
+[[redirects]]
+from = "/accessibilite/index.html"
+to = "/fr/accessibilite/"
 
 [[redirects]]
 from = "/vous-etes/candidat-cpge/index.html"
-to = "/integrer-l-ecole/candidat-e-cpge/"
+to = "/fr/integrer-l-ecole/candidat-e-cpge/"
 
 [[redirects]]
 from = "/offres-d-emploi/2026/test/index.html"
 to = "/relations-entreprises/offres-d-emploi/2026/test/"
 
 [[redirects]]
+from = "/agenda/2026/04/index.html"
+to = "/fr/agenda/2026/04/"
+
+[[redirects]]
+from = "/agenda/2026/11/index.html"
+to = "/fr/agenda/2026/11/"
+
+[[redirects]]
+from = "/presentation-des-fonctionnalites-1/index.html"
+to = "/fr/presentation-des-fonctionnalites-1/"
+
+[[redirects]]
+from = "/agenda/2026/soutenance-dhabilitation-a-diriger-les-recherches-hdr-de-robin-gerzaguet/index.html"
+to = "/fr/agenda/2026/soutenance-dhabilitation-a-diriger-les-recherches-hdr-de-robin-gerzaguet/"
+
+[[redirects]]
+from = "/plan-du-site/index.html"
+to = "/fr/plan-du-site/"
+
+[[redirects]]
 from = "/integrer-l-ecole/candidat-cpge/index.html"
-to = "/integrer-l-ecole/candidat-e-cpge/"
+to = "/fr/integrer-l-ecole/candidat-e-cpge/"
+
+[[redirects]]
+from = "/ecoles/enssat/index.html"
+to = "/fr/ecoles/enssat/"
+
+[[redirects]]
+from = "/publics/index.html"
+to = "/fr/publics/"
+
+[[redirects]]
+from = "/integrer-l-ecole/candidat-e-cpge/index.html"
+to = "/fr/integrer-l-ecole/candidat-e-cpge/"
+
+[[redirects]]
+from = "/offre-de-formation/ingenieur-e-photonique/index.html"
+to = "/fr/offre-de-formation/ingenieur-e-photonique/"
 
 [[redirects]]
 from = "/formation-continue/index.html"
-to = "/formations/formation-continue/"
+to = "/fr/formations/formation-continue/"
 
 [[redirects]]
 from = "/equipe/equipe-editoriale/index.html"
-to = "/archives/nos-equipes/equipe-editoriale/"
+to = "/fr/archives/nos-equipes/equipe-editoriale/"
 
 [[redirects]]
 from = "/diplomes/index.html"
-to = "/formations/diplomes/"
+to = "/fr/formations/diplomes/"
+
+[[redirects]]
+from = "/l-ecole/engagements-et-certifications/index.html"
+to = "/fr/l-ecole/engagements-et-certifications/"
 
 [[redirects]]
 from = "/vous-etes/diplome-e-bac-2-ou-3/index.html"
-to = "/integrer-l-ecole/diplome-e-bac-2-ou-3/"
+to = "/fr/integrer-l-ecole/diplome-e-bac-2-ou-3/"
+
+[[redirects]]
+from = "/equipe/index.html"
+to = "/fr/equipe/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/ingenieur-e-photonique/index.html"
+to = "/fr/projets/offre-de-formation/ingenieur-e-photonique/"
 
 [[redirects]]
 from = "/equipe/nos-equipes/equipe-editoriale/index.html"
-to = "/archives/nos-equipes/equipe-editoriale/"
+to = "/fr/archives/nos-equipes/equipe-editoriale/"
 
 [[redirects]]
 from = "/relations-entreprises/offres-d-emploi/index.html"
-to = "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
+to = "/fr/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
+
+[[redirects]]
+from = "/actualites/2026-05-11-projets-entreprendre-enssat-lequel-choisir/index.html"
+to = "/fr/actualites/2026-05-11-projets-entreprendre-enssat-lequel-choisir/"
 
 [[redirects]]
 from = "/actualites/article1/index.html"
-to = "/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
+to = "/fr/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
 
 [[redirects]]
 from = "/equipe/nos-equipes/equipe-pedagogique/index.html"
-to = "/archives/nos-equipes/equipe-pedagogique/"
+to = "/fr/archives/nos-equipes/equipe-pedagogique/"
 
 [[redirects]]
 from = "/offres-d-emploi/index.html"
-to = "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
+to = "/fr/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
+
+[[redirects]]
+from = "/international/summer-school/index.html"
+to = "/fr/international/summer-school/"
+
+[[redirects]]
+from = "/expositions/index.html"
+to = "/fr/expositions/"
+
+[[redirects]]
+from = "/integrer-l-ecole/chercheur-euse/index.html"
+to = "/fr/integrer-l-ecole/chercheur-euse/"
+
+[[redirects]]
+from = "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/index.html"
+to = "/fr/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/ingenieur-e-informatique/index.html"
+to = "/fr/projets/offre-de-formation/ingenieur-e-informatique/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/ingenieur-e-photonique/index.html"
+to = "/fr/agenda/offre-de-formation/ingenieur-e-photonique/"
+
+[[redirects]]
+from = "/l-ecole/qui-sommes-nous/index.html"
+to = "/fr/l-ecole/qui-sommes-nous/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/index.html"
+to = "/fr/projets/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/"
 
 [[redirects]]
 from = "/equipe/campus/index.html"
-to = "/archives/campus/"
+to = "/fr/archives/campus/"
 
 [[redirects]]
 from = "/enssat/index.html"
-to = "/ecoles/enssat/"
+to = "/fr/ecoles/enssat/"
 
 [[redirects]]
 from = "/equipe/lenssat-recrute/index.html"
-to = "/l-ecole/lenssat-recrute/"
+to = "/fr/l-ecole/lenssat-recrute/"
 
 [[redirects]]
 from = "/equipe/equipe-pedagogique/index.html"
-to = "/archives/nos-equipes/equipe-pedagogique/"
+to = "/fr/archives/nos-equipes/equipe-pedagogique/"
 
 [[redirects]]
 from = "/actualites/2026-01-27-article1/index.html"
-to = "/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
+to = "/fr/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
+
+[[redirects]]
+from = "/publics/candidate-admissible/index.html"
+to = "/fr/publics/candidate-admissible/"
+
+[[redirects]]
+from = "/international/opportunites-de-mobilite/index.html"
+to = "/fr/international/opportunites-de-mobilite/"
+
+[[redirects]]
+from = "/archives/nos-equipes/equipe-editoriale/index.html"
+to = "/fr/archives/nos-equipes/equipe-editoriale/"
 
 [[redirects]]
 from = "/campus/index.html"
-to = "/archives/campus/"
+to = "/fr/archives/campus/"
+
+[[redirects]]
+from = "/relations-entreprises/devenir-partenaire/index.html"
+to = "/fr/relations-entreprises/devenir-partenaire/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/ingenieur-e-informatique/index.html"
+to = "/fr/actualites/offre-de-formation/ingenieur-e-informatique/"
+
+[[redirects]]
+from = "/formations/continuum-cpge/index.html"
+to = "/fr/formations/continuum-cpge/"
+
+[[redirects]]
+from = "/formations/informatique/index.html"
+to = "/fr/formations/informatique/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/apprenti-e-ingenieur-e-informatique/index.html"
+to = "/fr/projets/offre-de-formation/apprenti-e-ingenieur-e-informatique/"
+
+[[redirects]]
+from = "/offre-de-formation/apprenti-e-ingenieur-e-photonique/index.html"
+to = "/fr/offre-de-formation/apprenti-e-ingenieur-e-photonique/"
+
+[[redirects]]
+from = "/l-ecole/lenssat-recrute/index.html"
+to = "/fr/l-ecole/lenssat-recrute/"
+
+[[redirects]]
+from = "/equipe/pia-raguet/index.html"
+to = "/fr/equipe/pia-raguet/"
+
+[[redirects]]
+from = "/agenda/2026/07/index.html"
+to = "/fr/agenda/2026/07/"
 
 [[redirects]]
 from = "/equipe/nos-equipes/equipe-de-recherche/index.html"
-to = "/archives/nos-equipes/equipe-de-recherche/"
+to = "/fr/archives/nos-equipes/equipe-de-recherche/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/index.html"
+to = "/fr/actualites/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/"
+
+[[redirects]]
+from = "/mentions-legales/index.html"
+to = "/fr/mentions-legales/"
 
 [[redirects]]
 from = "/formations/campus/index.html"
-to = "/archives/campus/"
+to = "/fr/archives/campus/"
+
+[[redirects]]
+from = "/formations/post-bac-cybersecurite/index.html"
+to = "/fr/formations/post-bac-cybersecurite/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/apprenti-e-ingenieur-e-informatique/index.html"
+to = "/fr/agenda/offre-de-formation/apprenti-e-ingenieur-e-informatique/"
+
+[[redirects]]
+from = "/agenda/2026/01/index.html"
+to = "/fr/agenda/2026/01/"
+
+[[redirects]]
+from = "/agenda/2026/soutenance-dhabilitation-a-diriger-les-recherches-hdr-de-stephane-trebaol/index.html"
+to = "/fr/agenda/2026/soutenance-dhabilitation-a-diriger-les-recherches-hdr-de-stephane-trebaol/"
+
+[[redirects]]
+from = "/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/index.html"
+to = "/fr/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/"
+
+[[redirects]]
+from = "/agenda/2026/10/index.html"
+to = "/fr/agenda/2026/10/"
 
 [[redirects]]
 from = "/equipe/equipe-de-recherche/index.html"
-to = "/archives/nos-equipes/equipe-de-recherche/"
+to = "/fr/archives/nos-equipes/equipe-de-recherche/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/apprenti-e-ingenieur-e-photonique/index.html"
+to = "/fr/agenda/offre-de-formation/apprenti-e-ingenieur-e-photonique/"
 
 [[redirects]]
 from = "/equipe/nos-equipes/equipe-administrative/index.html"
-to = "/archives/nos-equipes/equipe-administrative/"
+to = "/fr/archives/nos-equipes/equipe-administrative/"
+
+[[redirects]]
+from = "/formations/ingenieure-photonique/index.html"
+to = "/fr/formations/ingenieure-photonique/"
+
+[[redirects]]
+from = "/international/acceuil-des-etudiants-etrangers/index.html"
+to = "/fr/international/acceuil-des-etudiants-etrangers/"
+
+[[redirects]]
+from = "/relations-entreprises/location-de-ressources/index.html"
+to = "/fr/relations-entreprises/location-de-ressources/"
+
+[[redirects]]
+from = "/agenda/2026/09/index.html"
+to = "/fr/agenda/2026/09/"
+
+[[redirects]]
+from = "/integrer-l-ecole/diplome-e-bac-2-ou-3/index.html"
+to = "/fr/integrer-l-ecole/diplome-e-bac-2-ou-3/"
+
+[[redirects]]
+from = "/publics/chercheur/index.html"
+to = "/fr/publics/chercheur/"
+
+[[redirects]]
+from = "/offre-de-formation/apprenti-e-ingenieur-e-informatique/index.html"
+to = "/fr/offre-de-formation/apprenti-e-ingenieur-e-informatique/"
 
