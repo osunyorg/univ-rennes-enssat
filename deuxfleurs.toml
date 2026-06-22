@@ -103,6 +103,10 @@ from = "/formations/masters-doctorats/index.html"
 to = "/fr/formations/masters-doctorats/"
 
 [[redirects]]
+from = "/fr/international/acceuil-des-etudiants-etrangers/index.html"
+to = "/fr/international/accueil-des-etudiants-etrangers/"
+
+[[redirects]]
 from = "/l-ecole/gouvernance/index.html"
 to = "/fr/l-ecole/gouvernance/"
 
@@ -500,7 +504,7 @@ to = "/fr/formations/ingenieure-photonique/"
 
 [[redirects]]
 from = "/international/acceuil-des-etudiants-etrangers/index.html"
-to = "/fr/international/acceuil-des-etudiants-etrangers/"
+to = "/fr/international/accueil-des-etudiants-etrangers/"
 
 [[redirects]]
 from = "/relations-entreprises/location-de-ressources/index.html"
