@@ -102,15 +102,6 @@ items:
     descendants_targets: []
     path: "/programs/apprentie-ingenieure-photonique"
     file: content/fr/programs/apprentie-ingenieure-photonique/_index.html
-  - title: Photonique
-    slug: photonique
-    target: "/fr/formations/photonique/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/formations/photonique"
-    file: content/fr/pages/formations/photonique/_index.html
   - title: Post bac physique et photonique
     slug: post-bac-physique-et-photonique
     target: "/fr/formations/post-bac-physique-et-photonique/"
@@ -174,7 +165,6 @@ items:
   - "/fr/formations/ingenieure-informatique/"
   - "/fr/formations/ingenieure-photonique/"
   - "/fr/formations/masters-doctorats/"
-  - "/fr/formations/photonique/"
   - "/fr/formations/post-bac-cybersecurite/"
   - "/fr/formations/post-bac-physique-et-photonique/"
   html_class: menu-class-programs
