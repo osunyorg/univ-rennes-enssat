@@ -66,62 +66,49 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Informatique
-    slug: informatique
-    target: "/fr/formations/informatique/"
-    kind: page
+  - title: Ingénieur·e Informatique
+    slug: ingenieur-e-informatique
+    target: "/fr/formations/ingenieure-informatique/"
+    kind: program
     new_tab: false
-    children:
-    - title: Ingénieur·e Informatique
-      slug: ingenieur-e-informatique
-      target: "/fr/formations/ingenieure-informatique/"
-      kind: program
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/programs/ingenieure-informatique"
-      file: content/fr/programs/ingenieure-informatique/_index.html
-    - title: Apprenti·e Ingénieur·e Informatique
-      slug: apprenti-e-ingenieur-e-informatique
-      target: "/fr/formations/apprentie-ingenieure-informatique/"
-      kind: program
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/programs/apprentie-ingenieure-informatique"
-      file: content/fr/programs/apprentie-ingenieure-informatique/_index.html
-    descendants_targets:
-    - "/fr/formations/apprentie-ingenieure-informatique/"
-    - "/fr/formations/ingenieure-informatique/"
-    path: "/pages/formations/informatique"
-    file: content/fr/pages/formations/informatique/_index.html
+    children: []
+    descendants_targets: []
+    path: "/programs/ingenieure-informatique"
+    file: content/fr/programs/ingenieure-informatique/_index.html
+  - title: Ingénieur·e Photonique
+    slug: ingenieur-e-photonique
+    target: "/fr/formations/ingenieure-photonique/"
+    kind: program
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/programs/ingenieure-photonique"
+    file: content/fr/programs/ingenieure-photonique/_index.html
+  - title: Apprenti·e Ingénieur·e Informatique
+    slug: apprenti-e-ingenieur-e-informatique
+    target: "/fr/formations/apprentie-ingenieure-informatique/"
+    kind: program
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/programs/apprentie-ingenieure-informatique"
+    file: content/fr/programs/apprentie-ingenieure-informatique/_index.html
+  - title: Apprenti·e Ingénieur·e Photonique
+    slug: apprenti-e-ingenieur-e-photonique
+    target: "/fr/formations/apprentie-ingenieure-photonique/"
+    kind: program
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/programs/apprentie-ingenieure-photonique"
+    file: content/fr/programs/apprentie-ingenieure-photonique/_index.html
   - title: Photonique
     slug: photonique
     target: "/fr/formations/photonique/"
     kind: page
     new_tab: false
-    children:
-    - title: Ingénieur·e Photonique
-      slug: ingenieur-e-photonique
-      target: "/fr/formations/ingenieure-photonique/"
-      kind: program
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/programs/ingenieure-photonique"
-      file: content/fr/programs/ingenieure-photonique/_index.html
-    - title: Apprenti·e Ingénieur·e Photonique
-      slug: apprenti-e-ingenieur-e-photonique
-      target: "/fr/formations/apprentie-ingenieure-photonique/"
-      kind: program
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/programs/apprentie-ingenieure-photonique"
-      file: content/fr/programs/apprentie-ingenieure-photonique/_index.html
-    descendants_targets:
-    - "/fr/formations/apprentie-ingenieure-photonique/"
-    - "/fr/formations/ingenieure-photonique/"
+    children: []
+    descendants_targets: []
     path: "/pages/formations/photonique"
     file: content/fr/pages/formations/photonique/_index.html
   - title: Post bac physique et photonique
@@ -184,7 +171,6 @@ items:
   - "/fr/formations/continuum-cpge/"
   - "/fr/formations/formation-a-distance/"
   - "/fr/formations/formation-continue/"
-  - "/fr/formations/informatique/"
   - "/fr/formations/ingenieure-informatique/"
   - "/fr/formations/ingenieure-photonique/"
   - "/fr/formations/masters-doctorats/"
