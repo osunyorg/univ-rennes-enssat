@@ -39,16 +39,8 @@ from = "/archives/nos-equipes/equipe-pedagogique/index.html"
 to = "/fr/archives/nos-equipes/equipe-pedagogique/"
 
 [[redirects]]
-from = "/agenda/2026/12/index.html"
-to = "/fr/agenda/2026/12/"
-
-[[redirects]]
 from = "/formations/formation-a-distance/index.html"
 to = "/fr/formations/formation-a-distance/"
-
-[[redirects]]
-from = "/agenda/2026/05/index.html"
-to = "/fr/agenda/2026/05/"
 
 [[redirects]]
 from = "/l-ecole/choisir-lenssat/index.html"
@@ -111,10 +103,6 @@ from = "/formations/masters-doctorats/index.html"
 to = "/fr/formations/masters-doctorats/"
 
 [[redirects]]
-from = "/agenda/offre-de-formation/index.html"
-to = "/fr/agenda/offre-de-formation/"
-
-[[redirects]]
 from = "/l-ecole/gouvernance/index.html"
 to = "/fr/l-ecole/gouvernance/"
 
@@ -141,10 +129,6 @@ to = "/fr/relations-entreprises/taxe-dapprentissage/"
 [[redirects]]
 from = "/actualites/offre-de-formation/index.html"
 to = "/fr/actualites/offre-de-formation/"
-
-[[redirects]]
-from = "/agenda/2026/08/index.html"
-to = "/fr/agenda/2026/08/"
 
 [[redirects]]
 from = "/vous-etes/aspirant-apprenti/index.html"
@@ -227,10 +211,6 @@ from = "/formations/formation-continue/index.html"
 to = "/fr/formations/formation-continue/"
 
 [[redirects]]
-from = "/agenda/2026/03/index.html"
-to = "/fr/agenda/2026/03/"
-
-[[redirects]]
 from = "/diplome-e-bac-2-ou-3/index.html"
 to = "/fr/integrer-l-ecole/diplome-e-bac-2-ou-3/"
 
@@ -259,18 +239,6 @@ from = "/integrer-l-ecole/aspirant-e-apprenti-e/index.html"
 to = "/fr/integrer-l-ecole/aspirant-e-apprenti-e/"
 
 [[redirects]]
-from = "/agenda/2026/index.html"
-to = "/fr/agenda/2026/"
-
-[[redirects]]
-from = "/agenda/offre-de-formation/ingenieur-e-informatique/index.html"
-to = "/fr/agenda/offre-de-formation/ingenieur-e-informatique/"
-
-[[redirects]]
-from = "/agenda/2026/02/index.html"
-to = "/fr/agenda/2026/02/"
-
-[[redirects]]
 from = "/publics/international-student/index.html"
 to = "/fr/publics/international-student/"
 
@@ -287,10 +255,6 @@ from = "/equipe/choisir-lenssat/index.html"
 to = "/fr/l-ecole/choisir-lenssat/"
 
 [[redirects]]
-from = "/agenda/2026/06/index.html"
-to = "/fr/agenda/2026/06/"
-
-[[redirects]]
 from = "/vie-etudiante/culture-et-loisirs/index.html"
 to = "/fr/vie-etudiante/culture-et-loisirs/"
 
@@ -299,24 +263,12 @@ from = "/formations/apprentie-ingenieure-informatique/index.html"
 to = "/fr/formations/apprentie-ingenieure-informatique/"
 
 [[redirects]]
-from = "/agenda/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/index.html"
-to = "/fr/agenda/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/"
-
-[[redirects]]
-from = "/agenda/index.html"
-to = "/fr/agenda/"
-
-[[redirects]]
 from = "/equipe/gouvernance/index.html"
 to = "/fr/l-ecole/gouvernance/"
 
 [[redirects]]
 from = "/publics/une-entreprise/index.html"
 to = "/fr/publics/une-entreprise/"
-
-[[redirects]]
-from = "/agenda/2025/index.html"
-to = "/fr/agenda/2025/"
 
 [[redirects]]
 from = "/formations/photonique/index.html"
@@ -335,20 +287,8 @@ from = "/offres-d-emploi/2026/test/index.html"
 to = "/relations-entreprises/offres-d-emploi/2026/test/"
 
 [[redirects]]
-from = "/agenda/2026/04/index.html"
-to = "/fr/agenda/2026/04/"
-
-[[redirects]]
-from = "/agenda/2026/11/index.html"
-to = "/fr/agenda/2026/11/"
-
-[[redirects]]
 from = "/presentation-des-fonctionnalites-1/index.html"
 to = "/fr/presentation-des-fonctionnalites-1/"
-
-[[redirects]]
-from = "/agenda/2026/soutenance-dhabilitation-a-diriger-les-recherches-hdr-de-robin-gerzaguet/index.html"
-to = "/fr/agenda/2026/soutenance-dhabilitation-a-diriger-les-recherches-hdr-de-robin-gerzaguet/"
 
 [[redirects]]
 from = "/plan-du-site/index.html"
@@ -447,10 +387,6 @@ from = "/projets/offre-de-formation/ingenieur-e-informatique/index.html"
 to = "/fr/projets/offre-de-formation/ingenieur-e-informatique/"
 
 [[redirects]]
-from = "/agenda/offre-de-formation/ingenieur-e-photonique/index.html"
-to = "/fr/agenda/offre-de-formation/ingenieur-e-photonique/"
-
-[[redirects]]
 from = "/l-ecole/qui-sommes-nous/index.html"
 to = "/fr/l-ecole/qui-sommes-nous/"
 
@@ -527,10 +463,6 @@ from = "/equipe/pia-raguet/index.html"
 to = "/fr/equipe/pia-raguet/"
 
 [[redirects]]
-from = "/agenda/2026/07/index.html"
-to = "/fr/agenda/2026/07/"
-
-[[redirects]]
 from = "/equipe/nos-equipes/equipe-de-recherche/index.html"
 to = "/fr/archives/nos-equipes/equipe-de-recherche/"
 
@@ -551,32 +483,12 @@ from = "/formations/post-bac-cybersecurite/index.html"
 to = "/fr/formations/post-bac-cybersecurite/"
 
 [[redirects]]
-from = "/agenda/offre-de-formation/apprenti-e-ingenieur-e-informatique/index.html"
-to = "/fr/agenda/offre-de-formation/apprenti-e-ingenieur-e-informatique/"
-
-[[redirects]]
-from = "/agenda/2026/01/index.html"
-to = "/fr/agenda/2026/01/"
-
-[[redirects]]
-from = "/agenda/2026/soutenance-dhabilitation-a-diriger-les-recherches-hdr-de-stephane-trebaol/index.html"
-to = "/fr/agenda/2026/soutenance-dhabilitation-a-diriger-les-recherches-hdr-de-stephane-trebaol/"
-
-[[redirects]]
 from = "/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/index.html"
 to = "/fr/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/"
 
 [[redirects]]
-from = "/agenda/2026/10/index.html"
-to = "/fr/agenda/2026/10/"
-
-[[redirects]]
 from = "/equipe/equipe-de-recherche/index.html"
 to = "/fr/archives/nos-equipes/equipe-de-recherche/"
-
-[[redirects]]
-from = "/agenda/offre-de-formation/apprenti-e-ingenieur-e-photonique/index.html"
-to = "/fr/agenda/offre-de-formation/apprenti-e-ingenieur-e-photonique/"
 
 [[redirects]]
 from = "/equipe/nos-equipes/equipe-administrative/index.html"
@@ -593,10 +505,6 @@ to = "/fr/international/acceuil-des-etudiants-etrangers/"
 [[redirects]]
 from = "/relations-entreprises/location-de-ressources/index.html"
 to = "/fr/relations-entreprises/location-de-ressources/"
-
-[[redirects]]
-from = "/agenda/2026/09/index.html"
-to = "/fr/agenda/2026/09/"
 
 [[redirects]]
 from = "/integrer-l-ecole/diplome-e-bac-2-ou-3/index.html"
