@@ -25,6 +25,11 @@ params:
       in_hero:
         disabled: true
 
+  page:
+    single:
+      meta:
+        position: content
+
   image_sizes:
     sections:
       home:
