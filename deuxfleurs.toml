@@ -151,10 +151,6 @@ from = "/formations/diplomes/diplome-dingenieure-enssat-specialite-photonique/in
 to = "/fr/formations/diplomes/diplome-dingenieure-enssat-specialite-photonique/"
 
 [[redirects]]
-from = "/offre-de-formation/ingenieur-e-informatique/index.html"
-to = "/fr/offre-de-formation/ingenieur-e-informatique/"
-
-[[redirects]]
 from = "/vous-etes/index.html"
 to = "/fr/integrer-l-ecole/"
 
@@ -487,10 +483,6 @@ from = "/formations/post-bac-cybersecurite/index.html"
 to = "/fr/formations/post-bac-cybersecurite/"
 
 [[redirects]]
-from = "/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/index.html"
-to = "/fr/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/"
-
-[[redirects]]
 from = "/equipe/equipe-de-recherche/index.html"
 to = "/fr/archives/nos-equipes/equipe-de-recherche/"
 
@@ -517,8 +509,4 @@ to = "/fr/integrer-l-ecole/diplome-e-bac-2-ou-3/"
 [[redirects]]
 from = "/publics/chercheur/index.html"
 to = "/fr/publics/chercheur/"
-
-[[redirects]]
-from = "/offre-de-formation/apprenti-e-ingenieur-e-informatique/index.html"
-to = "/fr/offre-de-formation/apprenti-e-ingenieur-e-informatique/"
 
