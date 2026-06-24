@@ -21,9 +21,9 @@ items:
   file: content/fr/pages/accessibilite/_index.html
 - title: Un site éco-conçu avec Osuny
   slug: un-site-eco-concu-avec-osuny
-  target: ''
-  kind: blank
-  new_tab: false
+  target: https://www.osuny.org/
+  kind: url
+  new_tab: true
   children: []
   descendants_targets: []
 - title: Politique de confidentialité
