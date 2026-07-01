@@ -12,6 +12,8 @@ header#document-header
             .nav-search
                 margin-left: $spacing-1
                 margin-right: $spacing-1
+                .pf-trigger-text
+                    @include sr-only
 
             .i18n-dropdown
                 span
@@ -91,6 +93,7 @@ header#document-header
         @include media-breakpoint-down(desktop)
             .nav-level-1 > li:nth-last-child(3)
                 border-bottom: 0
+
             .menu-class-integration
                 border-bottom: none
                 > span
@@ -99,6 +102,10 @@ header#document-header
                     justify-content: center
                 .dropdown-menu
                     margin-top: $spacing-3
+
+            .nav-search
+                .pf-trigger-btn
+                    justify-content: space-between
 
     html.has-menu-sticky:not(.is-scrolling-down) &
         @include media-breakpoint-up(desktop)
