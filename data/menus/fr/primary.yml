@@ -196,11 +196,13 @@ items:
     file: content/fr/pages/international/accueil-des-etudiants-etrangers/_index.html
   - title: Summer School
     slug: summer-school
-    target: ''
-    kind: blank
+    target: "/fr/international/summer-school/"
+    kind: page
     new_tab: false
     children: []
     descendants_targets: []
+    path: "/pages/international/summer-school"
+    file: content/fr/pages/international/summer-school/_index.html
   - title: Opportunités de mobilité
     slug: opportunites-de-mobilite
     target: "/fr/international/opportunites-de-mobilite/"
@@ -211,9 +213,9 @@ items:
     path: "/pages/international/opportunites-de-mobilite"
     file: content/fr/pages/international/opportunites-de-mobilite/_index.html
   descendants_targets:
-  - ''
   - "/fr/international/accueil-des-etudiants-etrangers/"
   - "/fr/international/opportunites-de-mobilite/"
+  - "/fr/international/summer-school/"
   - "/fr/international/venir-se-former-depuis-linternational/"
   path: "/pages/international"
   file: content/fr/pages/international/_index.html
