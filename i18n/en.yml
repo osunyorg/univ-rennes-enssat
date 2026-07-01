@@ -1,6 +1,7 @@
 commons:
   footer:
-    cta:
-      text: We are waiting for you!
     site:
       title: École Nationale Supérieure des Sciences Appliquées et de Technologie
+    logos:
+      imt: École affiliée IMT
+      rennes: Université de Rennes
