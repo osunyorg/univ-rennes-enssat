@@ -1,11 +1,11 @@
 <div class="container">
   <div class="footer-logos">
     {{ partial "footer/logo.html" }}
-    <a href="https://www.univ-rennes.fr/" target="_blank">
-      <img src="/assets/images/logos/logo_rennes.svg" class="logo-rennes" alt="Université de Rennes" title="{{ i18n "commons.footer.logos.rennes" }}">
+    <a href="https://www.univ-rennes.fr/" target="_blank" title="{{- i18n "commons.link.blank_aria" (dict "Title" (printf (i18n "commons.footer.logos.rennes"))) -}}">
+      <img src="/assets/images/logos/logo_rennes.svg" class="logo-rennes" alt="{{- i18n "commons.footer.logos.rennes" -}}">
     </a>
-    <a href="https://www.imt.fr/" target="_blank">
-      <img src="/assets/images/logos/logo_imt_white.svg" class="logo-imt" alt="École affiliée IMT" title="{{ i18n "commons.footer.logos.imt" }}">
+    <a href="https://www.imt.fr/" target="_blank" title="{{- i18n "commons.link.blank_aria" (dict "Title" (printf (i18n "commons.footer.logos.imt"))) -}}">
+      <img src="/assets/images/logos/logo_imt_white.svg" class="logo-imt" alt="{{- i18n "commons.footer.logos.imt" -}}">
     </a>
   </div>
   <div class="footer-content">
