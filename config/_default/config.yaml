@@ -7,7 +7,7 @@ params:
     active: true
   logo:
     header: '/assets/images/logo_header.svg'
-    footer: '/assets/images/logo_footer.svg'
+    footer: '/assets/images/logos/logo_enssat.svg'
 
   i18n:
     positions:

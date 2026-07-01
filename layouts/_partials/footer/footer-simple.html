@@ -1,7 +1,12 @@
 <div class="container">
   <div class="footer-logos">
     {{ partial "footer/logo.html" }}
-    <img src="/assets/images/logos/logo_imt_white.svg" class="logo-imt" alt="École affiliée IMT">
+    <a href="https://www.univ-rennes.fr/" target="_blank">
+      <img src="/assets/images/logos/logo_rennes.svg" class="logo-rennes" alt="Université de Rennes" title="{{ i18n "commons.footer.logos.rennes" }}">
+    </a>
+    <a href="https://www.imt.fr/" target="_blank">
+      <img src="/assets/images/logos/logo_imt_white.svg" class="logo-imt" alt="École affiliée IMT" title="{{ i18n "commons.footer.logos.imt" }}">
+    </a>
   </div>
   <div class="footer-content">
     <div class="footer-site">

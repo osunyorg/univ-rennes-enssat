@@ -2,8 +2,14 @@ footer#document-footer
     padding-bottom: $spacing-3
 
     .footer-logos
-        > * + *
-            margin-top: $spacing-4
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        gap: space(7)
+        a::after
+            display: none
+        .logo-rennes
+            height: pxToRem(44)
 
     .footer-site
         line-height: pxToRem(28)
@@ -54,10 +60,12 @@ footer#document-footer
             align-items: flex-start !important
             display: flex
             gap: var(--grid-gutter)
-        
-        .footer-logo
-            width: columns(3)
-        
+
+        .footer-logos
+            align-items: center
+            img
+                width: columns(2)
+
         .footer-content
             @include grid(3)
             align-items: baseline
