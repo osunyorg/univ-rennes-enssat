@@ -9,6 +9,11 @@ header#document-header
 
         // special menu for 'vous êtes'
         @include media-breakpoint-up(desktop)
+            .nav-level-1
+                > li
+                    > a, > span
+                        white-space: nowrap
+
             .nav-search
                 margin-left: $spacing-1
                 margin-right: $spacing-1
