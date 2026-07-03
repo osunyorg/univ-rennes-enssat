@@ -36,6 +36,12 @@
         figure
             order: 3
 
+    @include media-breakpoint-down(xxl)
+        @include media-breakpoint-up(md)
+            h1
+                font-size: $h1-size
+                line-height: $h1-line-height
+
     @include media-breakpoint-up(desktop)
         &:not(.hero--with-image)
             .content
@@ -51,16 +57,8 @@
             margin-top: $spacing-4
             .hero-text
                 margin-top: 0
-                width: columns(5)
+                width: columns(3)
             figure
                 width: columns(3)
             > p
                 flex: 1
-    @include media-breakpoint-up(xl)
-        .content
-            .hero-text
-                width: columns(4)
-    @include media-breakpoint-up(xxl)
-        .content
-            .hero-text
-                width: columns(3)
