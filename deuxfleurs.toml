@@ -83,6 +83,10 @@ from = "/integrer-l-ecole/index.html"
 to = "/fr/integrer-l-ecole/"
 
 [[redirects]]
+from = "/equipe/alain-pierre-forsans/index.html"
+to = "/fr/equipe/alain-pierre-forsans/"
+
+[[redirects]]
 from = "/formations/post-bac-physique-et-photonique/index.html"
 to = "/fr/formations/post-bac-physique-et-photonique/"
 
@@ -173,6 +177,10 @@ to = "/fr/actualites/offre-de-formation/apprenti-e-ingenieur-e-photonique/"
 [[redirects]]
 from = "/vie-etudiante/se-restaurer/index.html"
 to = "/fr/vie-etudiante/se-restaurer/"
+
+[[redirects]]
+from = "/equipe/alain-pierre-forsans/actualites/index.html"
+to = "/fr/equipe/alain-pierre-forsans/actualites/"
 
 [[redirects]]
 from = "/alumni/index.html"
