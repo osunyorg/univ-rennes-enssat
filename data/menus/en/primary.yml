@@ -1,6 +1,25 @@
 ---
 title: Menu principal
 items:
+- title: The school
+  slug: the-school
+  target: "/en/l-ecole/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Who we are?
+    slug: who-we-are
+    target: "/en/l-ecole/qui-sommes-nous/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/l-ecole/qui-sommes-nous"
+    file: content/en/pages/l-ecole/qui-sommes-nous/_index.html
+  descendants_targets:
+  - "/en/l-ecole/qui-sommes-nous/"
+  path: "/pages/l-ecole"
+  file: content/en/pages/l-ecole/_index.html
 - title: Programs
   slug: programs
   target: "/en/programs/"
