@@ -271,6 +271,10 @@ from = "/formations/apprentie-ingenieure-informatique/index.html"
 to = "/fr/formations/apprentie-ingenieure-informatique/"
 
 [[redirects]]
+from = "/en/qui-sommes-nous/index.html"
+to = "/en/l-ecole/qui-sommes-nous/"
+
+[[redirects]]
 from = "/equipe/gouvernance/index.html"
 to = "/fr/l-ecole/gouvernance/"
 
