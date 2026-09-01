@@ -395,6 +395,10 @@ from = "/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emplo
 to = "/fr/relations-entreprises/recrutez-en-stage-ou-en-alternance/offres-d-emploi/"
 
 [[redirects]]
+from = "/fr/fichiers/2026/index.html"
+to = "/fr/fichiers/2026/offre-formation-activites-externes-asul-2025-2026pdf/"
+
+[[redirects]]
 from = "/projets/offre-de-formation/ingenieur-e-informatique/index.html"
 to = "/fr/projets/offre-de-formation/ingenieur-e-informatique/"
 

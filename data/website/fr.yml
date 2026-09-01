@@ -21,6 +21,9 @@ contents:
       layout: accent_background
       text: >-
         <p>On vous attend !</p>
+      image:
+        id: "1b07040c-a329-4e4a-a0ee-9320cb2f0258"
+
 
       buttons:
         - 
