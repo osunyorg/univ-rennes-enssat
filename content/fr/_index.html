@@ -254,6 +254,51 @@ contents:
       quantity: 4
 
 
+  - kind: block
+    template: agenda
+    title: >-
+      Évènements
+    slug: >-
+      evenements
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Évènements
+        heading: 2
+        link: "/fr/agenda/"
+
+    data:
+      mode: all
+      kinds:
+        parent: true
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: list
+
+
+      title_link: "/fr/agenda/"
+      events:
+        - permalink: "/fr/agenda/2027/journee-portes-ouvertes/"
+          path: "/events/2027/02/13-journee-portes-ouvertes"
+          slug: "journee-portes-ouvertes"
+          file: "content/fr/events/2027/02/13-journee-portes-ouvertes.html"
+          name: >-
+            Journée portes ouvertes
+
+      quantity: 1
 
   - kind: block
     template: pages
