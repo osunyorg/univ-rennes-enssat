@@ -247,10 +247,6 @@ from = "/integrer-l-ecole/aspirant-e-apprenti-e/index.html"
 to = "/fr/integrer-l-ecole/aspirant-e-apprenti-e/"
 
 [[redirects]]
-from = "/publics/international-student/index.html"
-to = "/fr/publics/international-student/"
-
-[[redirects]]
 from = "/formations/diplomes/index.html"
 to = "/fr/formations/diplomes/"
 
@@ -277,10 +273,6 @@ to = "/en/l-ecole/qui-sommes-nous/"
 [[redirects]]
 from = "/equipe/gouvernance/index.html"
 to = "/fr/l-ecole/gouvernance/"
-
-[[redirects]]
-from = "/publics/une-entreprise/index.html"
-to = "/fr/publics/une-entreprise/"
 
 [[redirects]]
 from = "/formations/photonique/index.html"
@@ -313,10 +305,6 @@ to = "/fr/integrer-l-ecole/candidat-e-cpge/"
 [[redirects]]
 from = "/ecoles/enssat/index.html"
 to = "/fr/ecoles/enssat/"
-
-[[redirects]]
-from = "/publics/index.html"
-to = "/fr/publics/"
 
 [[redirects]]
 from = "/integrer-l-ecole/candidat-e-cpge/index.html"
@@ -431,10 +419,6 @@ from = "/actualites/2026-01-27-article1/index.html"
 to = "/fr/actualites/2026-01-27-visite-de-lenssat-et-de-linstitut-foton/"
 
 [[redirects]]
-from = "/publics/candidate-admissible/index.html"
-to = "/fr/publics/candidate-admissible/"
-
-[[redirects]]
 from = "/international/opportunites-de-mobilite/index.html"
 to = "/fr/international/opportunites-de-mobilite/"
 
@@ -521,8 +505,4 @@ to = "/fr/relations-entreprises/location-de-ressources/"
 [[redirects]]
 from = "/integrer-l-ecole/diplome-e-bac-2-ou-3/index.html"
 to = "/fr/integrer-l-ecole/diplome-e-bac-2-ou-3/"
-
-[[redirects]]
-from = "/publics/chercheur/index.html"
-to = "/fr/publics/chercheur/"
 
