@@ -1,0 +1,21 @@
+a.backtotop
+    background: var(--color-background)
+    bottom: var(--grid-gutter)
+    opacity: 0
+    position: fixed
+    right: var(--grid-gutter)
+    transition: .3s
+    transform: translateY(100%)
+    z-index: 200
+    .is-scrolling-up.has-menu-sticky &,
+    &:hover
+        opacity: 1
+        transform: translateY(0%)
+    &:focus, &:hover
+        color: var(--color-text) !important
+    &:hover, &:focus
+        transform: translateY(0%) scale(0.95) !important
+        color: white !important
+    @include media-breakpoint-down(md)
+        bottom: space(19)
+        font-size: pxToRem(14)
