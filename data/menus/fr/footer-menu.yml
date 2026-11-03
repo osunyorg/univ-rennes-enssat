@@ -3,8 +3,8 @@ title: Menu du pied de page
 items:
 - title: Admission
   slug: admission
-  target: ''
-  kind: url
+  target: "/fr/integrer-l-ecole/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
