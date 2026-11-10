@@ -10,6 +10,15 @@ items:
   descendants_targets: []
   path: "/pages/integrer-l-ecole"
   file: content/fr/pages/integrer-l-ecole/_index.html
+- title: Recherche
+  slug: recherche
+  target: "/fr/recherche/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/recherche"
+  file: content/fr/pages/recherche/_index.html
 - title: Actualités
   slug: actualites
   target: "/fr/actualites/"
