@@ -16,11 +16,11 @@ contents:
     top:
       active: true
       description: >-
-        <p>On vous attend !</p>
+        <p>Rejoignez-nous !</p>
     data:
       layout: accent_background
       text: >-
-        <p>On vous attend !</p>
+        <p>Rejoignez-nous !</p>
       image:
         id: "1b07040c-a329-4e4a-a0ee-9320cb2f0258"
 
