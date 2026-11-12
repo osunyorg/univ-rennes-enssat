@@ -339,6 +339,10 @@ from = "/equipe/index.html"
 to = "/fr/equipe/"
 
 [[redirects]]
+from = "/fr/actualites/2026-11-12-voile-des-etudiants-de-lannion-a-l-interface-concept-race-3/index.html"
+to = "/fr/actualites/2026-10-22-voile-des-etudiants-de-lannion-a-l-interface-concept-race-3/"
+
+[[redirects]]
 from = "/projets/offre-de-formation/ingenieur-e-photonique/index.html"
 to = "/fr/projets/offre-de-formation/ingenieur-e-photonique/"
 
