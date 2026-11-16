@@ -34,7 +34,19 @@ items:
   target: ''
   kind: blank
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Candidat·e CPGE
+    slug: candidat-e-cpge
+    target: "/en/integrer-l-ecole/candidat-e-cpge/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/integrer-l-ecole/candidat-e-cpge"
+    file: content/en/pages/integrer-l-ecole/candidat-e-cpge/_index.html
+  descendants_targets:
+  - "/en/integrer-l-ecole/candidat-e-cpge/"
   html_class: menu-class-integration
+  path: "/pages/integrer-l-ecole"
+  file: content/en/pages/integrer-l-ecole/_index.html
 
