@@ -84,7 +84,7 @@ items:
     descendants_targets: []
     path: "/programs/ingenieure-photonique"
     file: content/fr/programs/ingenieure-photonique/_index.html
-  - title: Apprenti·e Ingénieur·e Informatique
+  - title: Apprenti·e ingénieur·e Informatique
     slug: apprenti-e-ingenieur-e-informatique
     target: "/fr/formations/apprentie-ingenieure-informatique/"
     kind: program
@@ -102,8 +102,8 @@ items:
     descendants_targets: []
     path: "/programs/apprentie-ingenieure-photonique"
     file: content/fr/programs/apprentie-ingenieure-photonique/_index.html
-  - title: Post bac physique et photonique
-    slug: post-bac-physique-et-photonique
+  - title: Cycle universitaire préparatoire
+    slug: cycle-universitaire-preparatoire
     target: "/fr/formations/post-bac-physique-et-photonique/"
     kind: page
     new_tab: false
@@ -111,15 +111,6 @@ items:
     descendants_targets: []
     path: "/pages/formations/post-bac-physique-et-photonique"
     file: content/fr/pages/formations/post-bac-physique-et-photonique/_index.html
-  - title: Post bac cybersécurité
-    slug: post-bac-cybersecurite
-    target: "/fr/formations/post-bac-cybersecurite/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/formations/post-bac-cybersecurite"
-    file: content/fr/pages/formations/post-bac-cybersecurite/_index.html
   - title: Continuum CPGE
     slug: continuum-cpge
     target: "/fr/formations/continuum-cpge/"
@@ -165,7 +156,6 @@ items:
   - "/fr/formations/ingenieure-informatique/"
   - "/fr/formations/ingenieure-photonique/"
   - "/fr/formations/masters-doctorats/"
-  - "/fr/formations/post-bac-cybersecurite/"
   - "/fr/formations/post-bac-physique-et-photonique/"
   html_class: menu-class-programs
   path: "/programs"
