@@ -102,8 +102,8 @@ items:
     descendants_targets: []
     path: "/programs/apprentie-ingenieure-photonique"
     file: content/fr/programs/apprentie-ingenieure-photonique/_index.html
-  - title: Cycle universitaire préparatoire
-    slug: cycle-universitaire-preparatoire
+  - title: Cycle universitaire post-Bac
+    slug: cycle-universitaire-post-bac
     target: "/fr/formations/post-bac-physique-et-photonique/"
     kind: page
     new_tab: false
