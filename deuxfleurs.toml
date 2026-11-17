@@ -399,10 +399,6 @@ from = "/l-ecole/qui-sommes-nous/index.html"
 to = "/fr/l-ecole/qui-sommes-nous/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/index.html"
-to = "/fr/projets/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/"
-
-[[redirects]]
 from = "/equipe/campus/index.html"
 to = "/fr/archives/campus/"
 
@@ -469,10 +465,6 @@ to = "/fr/equipe/pia-raguet/"
 [[redirects]]
 from = "/equipe/nos-equipes/equipe-de-recherche/index.html"
 to = "/fr/archives/nos-equipes/equipe-de-recherche/"
-
-[[redirects]]
-from = "/actualites/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/index.html"
-to = "/fr/actualites/offre-de-formation/ingenieur-e-sous-statut-etudiant-e/"
 
 [[redirects]]
 from = "/mentions-legales/index.html"
