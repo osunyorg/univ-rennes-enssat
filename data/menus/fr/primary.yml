@@ -350,8 +350,8 @@ items:
     descendants_targets: []
     path: "/pages/integrer-l-ecole/bachelier-e-s"
     file: content/fr/pages/integrer-l-ecole/bachelier-e-s/_index.html
-  - title: 'Apprenti·e Ingénieur·e '
-    slug: apprenti-e-ingenieur-e
+  - title: 'Futur·e Apprenti·e Ingénieur·e '
+    slug: futur-e-apprenti-e-ingenieur-e
     target: "/fr/integrer-l-ecole/aspirant-e-apprenti-e/"
     kind: page
     new_tab: false
