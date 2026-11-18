@@ -475,10 +475,6 @@ from = "/formations/campus/index.html"
 to = "/fr/archives/campus/"
 
 [[redirects]]
-from = "/formations/post-bac-cybersecurite/index.html"
-to = "/fr/formations/post-bac-cybersecurite/"
-
-[[redirects]]
 from = "/equipe/equipe-de-recherche/index.html"
 to = "/fr/archives/nos-equipes/equipe-de-recherche/"
 
