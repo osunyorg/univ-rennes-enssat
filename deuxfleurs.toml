@@ -151,10 +151,6 @@ from = "/ecoles/index.html"
 to = "/fr/ecoles/"
 
 [[redirects]]
-from = "/formations/diplomes/diplome-dingenieure-enssat-specialite-photonique/index.html"
-to = "/fr/formations/diplomes/diplome-dingenieure-enssat-specialite-photonique/"
-
-[[redirects]]
 from = "/vous-etes/index.html"
 to = "/fr/integrer-l-ecole/"
 
