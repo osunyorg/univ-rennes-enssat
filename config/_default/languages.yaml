@@ -9,6 +9,12 @@ en:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        linkedin:
+          label: >-
+            linkedin.comschoolenssat
+          value: >-
+            https://www.linkedin.com/school/enssat/
 
   taxonomies:
     administrator: administrators
