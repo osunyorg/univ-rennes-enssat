@@ -87,10 +87,6 @@ from = "/equipe/alain-pierre-forsans/index.html"
 to = "/fr/equipe/alain-pierre-forsans/"
 
 [[redirects]]
-from = "/formations/post-bac-physique-et-photonique/index.html"
-to = "/fr/formations/post-bac-physique-et-photonique/"
-
-[[redirects]]
 from = "/equipe/equipe-administrative/index.html"
 to = "/fr/archives/nos-equipes/equipe-administrative/"
 
@@ -433,10 +429,6 @@ to = "/fr/relations-entreprises/devenir-partenaire/"
 [[redirects]]
 from = "/actualites/offre-de-formation/ingenieur-e-informatique/index.html"
 to = "/fr/actualites/offre-de-formation/ingenieur-e-informatique/"
-
-[[redirects]]
-from = "/formations/continuum-cpge/index.html"
-to = "/fr/formations/continuum-cpge/"
 
 [[redirects]]
 from = "/formations/informatique/index.html"

@@ -111,15 +111,6 @@ items:
     descendants_targets: []
     path: "/programs/cycle-universitaire-preparatoire-aux-grandes-ecoles-cupge"
     file: content/fr/programs/cycle-universitaire-preparatoire-aux-grandes-ecoles-cupge/_index.html
-  - title: Continuum CPGE
-    slug: continuum-cpge
-    target: "/fr/formations/continuum-cpge/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/formations/continuum-cpge"
-    file: content/fr/pages/formations/continuum-cpge/_index.html
   - title: Masters & doctorats
     slug: masters-doctorats
     target: "/fr/formations/masters-doctorats/"
@@ -150,7 +141,6 @@ items:
   descendants_targets:
   - "/fr/formations/apprentie-ingenieure-informatique/"
   - "/fr/formations/apprentie-ingenieure-photonique/"
-  - "/fr/formations/continuum-cpge/"
   - "/fr/formations/cycle-universitaire-preparatoire-aux-grandes-ecoles-cupge/"
   - "/fr/formations/formation-a-distance/"
   - "/fr/formations/formation-continue/"
