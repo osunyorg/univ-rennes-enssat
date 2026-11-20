@@ -1,13 +1,13 @@
 ---
 title: Menu du pied de page
 items:
-- title: Intégrer l'école
-  slug: integrer-l-ecole
-  target: "/en/integrer-l-ecole/"
+- title: Research
+  slug: research
+  target: "/en/recherche/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/integrer-l-ecole"
-  file: content/en/pages/integrer-l-ecole/_index.html
+  path: "/pages/recherche"
+  file: content/en/pages/recherche/_index.html
 

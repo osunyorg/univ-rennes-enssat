@@ -10,11 +10,26 @@ en:
   params:
     contact_details:
       social_networks:
+        facebook:
+          label: >-
+            enssat
+          value: >-
+            https://www.facebook.com/enssat
+        instagram:
+          label: >-
+            enssat_lannion
+          value: >-
+            https://instagram.com/enssat_lannion
         linkedin:
           label: >-
             linkedin.comschoolenssat
           value: >-
             https://www.linkedin.com/school/enssat/
+        youtube:
+          label: >-
+            enssat_lannion
+          value: >-
+            https://www.youtube.com/@enssat_lannion
 
   taxonomies:
     administrator: administrators
