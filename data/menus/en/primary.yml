@@ -34,8 +34,18 @@ items:
     descendants_targets: []
     path: "/pages/l-ecole/gouvernance"
     file: content/en/pages/l-ecole/gouvernance/_index.html
+  - title: Engagements et certifications
+    slug: engagements-et-certifications
+    target: "/en/l-ecole/engagements-et-certifications/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/l-ecole/engagements-et-certifications"
+    file: content/en/pages/l-ecole/engagements-et-certifications/_index.html
   descendants_targets:
   - "/en/l-ecole/choisir-lenssat/"
+  - "/en/l-ecole/engagements-et-certifications/"
   - "/en/l-ecole/gouvernance/"
   - "/en/l-ecole/qui-sommes-nous/"
   path: "/pages/l-ecole"
